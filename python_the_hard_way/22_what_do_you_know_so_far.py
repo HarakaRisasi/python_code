@@ -1,13 +1,14 @@
-#_*_coding:utf-8_*_
-#Задача:
+# -*- coding: utf-8 -*-
+
+# Задача:
 #   -Просмотреть все упражнения с самого начала
-#   -Выписать ключевые слова и символы используемые в 
+#   -Выписать ключевые слова и символы используемые в
 #       синтаксисе Python для составления программ
 #   -Составить таблицу
 #
 # Keyword\symbol   |   Name     |           Meaning\Explanation
-#   
-#   print()        |print       |The print function. Used to 
+#
+#   print()        |print       |The print function. Used to
 #                  |            |output text to the console.
 #                  |            |
 #   '              |Single quote|Used to encapsulate a single line
@@ -32,16 +33,16 @@
 #                  |            |     a = a + b
 #                  |            |
 #   -              |Hyphen      |Used as minus sign when performing
-#                  |            |substraction in mathematical 
+#                  |            |substraction in mathematical
 #                  |            |operation.
 #                  |            |
 #   *              |Asterisk    |Used for multiplication during
 #                  |            |mathematical operations.
-#                  |            |Also used when using *args in 
+#                  |            |Also used when using *args in
 #                  |            |functions where you are not sure
 #                  |            |how many arguments you are passing
 #                  |            |to the function.
-#                  |            |Specifically, the * allows you to 
+#                  |            |Specifically, the * allows you to
 #                  |            |accept an arbitrary number of
 #                  |            |arguments.
 #                  |            |
@@ -59,14 +60,14 @@
 #                  |formatter   |operations(returns remainder after
 #                  |            |division).
 #                  |            |Also used as a formatter when using
-#                  |            |format strings(only used in  
+#                  |            |format strings(only used in
 #                  |            |python 2.x)
 #                  |            |
 #   <              |Less than   |Return TRUE if value on the left
 #                  | sign       |is less than that on the right,
 #                  |            |else return FALSE.
 #                  |            |
-#   >              |Greater than|Return TRUE if value on the left, 
+#   >              |Greater than|Return TRUE if value on the left,
 #                  | sign       |is greater than that on the right,
 #                  |            |else return FALSE.
 #                  |            |
@@ -100,7 +101,7 @@
 #                  |            |keyboard.
 #                  |            |
 #   from           |Part of an  |Used to import external modules into
-#                  | import     |a script. 
+#                  | import     |a script.
 #                  |  statement |
 #                  |            |
 #   import         |Import      |Another import statement. Similar
@@ -109,10 +110,10 @@
 #   argv           |Attribute   |Accept a list of command line
 #                  | of (sys)   |arguments passed to it when
 #                  |  module    |running a script.
-#                  |            |Must be imported from the (SYS) 
+#                  |            |Must be imported from the (SYS)
 #                  |            |module.
 #                  |            |
-#   open()         |Function    |Opens a file and returns the 
+#   open()         |Function    |Opens a file and returns the
 #                  |            |corresponding file object.
 #                  |            |
 #   read()         |Function    |Reads the contents of a file object.
@@ -128,7 +129,7 @@
 #                  |            |
 #   *args          |Arbitrary   |Allows a function to accept an
 #                  | argument   |arbitrary argument list. Used for
-#                  |            |when you don't know how many 
+#                  |            |when you don't know how many
 #                  |            |arguments are going to be passed
 #                  |            |to a function.
 #                  |            |
@@ -138,7 +139,7 @@
 #                  |            |
 #   readline()     |Method      |Reads a single line from a file.
 #                  |            |A neline character is left at the
-#                  |            |end of the string so will 
+#                  |            |end of the string so will
 #                  |            |automatically read the next line
 #                  |            |until the end of the file each time
 #                  |            |it's called.
