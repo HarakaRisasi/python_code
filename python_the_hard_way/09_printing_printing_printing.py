@@ -1,14 +1,16 @@
-#_*_coding:utf-8_*_
-#Here's some new strange stuff, remember type it exactly.
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-days = "\nMon Tue Wed Thu Fri Sat Sun\n"
-months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSen\nOct\nNov\nDec"
+# Here's some new strange stuff, remember type it exactly.
 
-month = "%s"
-print month %(months)
+days = '\nMon Tue Wed Thu Fri Sat Sun\n'
+months = '''\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSen\nOct\nNov\nDec'''
 
-print "\nHere are the days: ", days
-print "Here are the months: ", months
+month = '%s'
+print month % months
+
+print '\nHere are the days: ', days
+print 'Here are the months: ', months
 
 print """
 There's something going on here.
