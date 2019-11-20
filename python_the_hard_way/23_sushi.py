@@ -1,7 +1,8 @@
-#sushi price
+# -*- coding: utf-8 -*-
+# sushi price
+
 menu = { 
-        0 : 0,
-        
+        0 : 0,        
         #'nebraska'
         4 : 190,
         #'filadelphia'
@@ -18,8 +19,6 @@ a = 0
 
 while ( a <= n ):
     s = menu[input()]
-    a += s
+    a += s   
 
-    
-
-print a
+print (a)
