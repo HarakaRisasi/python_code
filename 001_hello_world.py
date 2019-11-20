@@ -18,7 +18,7 @@ print g
 
 #initialization of string variable
 var = 'Python in easy steps'
-print var
+print va
 
 """Hello world
     is a first program

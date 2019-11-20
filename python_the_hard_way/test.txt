@@ -1,7 +1,0 @@
-Hello it's my first file,
-maked by terminal comand
-cat >name_of_file.txt
-and after than i write text in
-to tekst file than i press
-CTRL + D 
-to save my teks in file
