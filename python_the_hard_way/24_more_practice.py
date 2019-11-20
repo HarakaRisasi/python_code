@@ -1,38 +1,41 @@
-#_*_coding:utf-8_*_
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-print "Let's practice everything."
-print 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
+print ("Let's practice everything.")
+print ('You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.')
 
-poem = """
+poem = \
+    """
 \tThe lovely world
 with logic so firmly planted
-cannot discern \n the needs of love
+cannot discern 
+ the needs of love
 nor comprehend passion from intuition
 and requires an explanation
-\n\t\twhere there is none.
+
+\t\twhere there is none.
 """
 
-print "------------"
-print poem
-print "------------"
+print ('------------')
+print (poem)
+print ('------------')
 
 five = 10 - 2 + 3 - 6
-print "This shold be five: {0}". format(five)
+print ('This shold be five: {0}'.format(five))
 
 def secret_formula(started):
     jelly_beans = started * 500
     jars = jelly_beans / 1000
     crates = jars / 100
-    return jelly_beans, jars, crates
+    return (jelly_beans, jars, crates)
 
 start_point = 10000
-beans, jars, crates = secret_formula(start_point)
+(beans, jars, crates) = secret_formula(start_point)
 
-print "With a starting point of: {0}". format(start_point)
-print "We'd have {0} beans, {1} jars, and {2} crates.". format(beans,
-        jars, crates)
+print ('With a starting point of: {0}'.format(start_point))
+print ("We'd have {0} beans, {1} jars, and {2} crates.".format(beans, jars, crates))
 
 start_point = start_point / 10
 
-print "We can also do that this way:"
-print "We'd have %d  beans, %d jars, and %d crates." %secret_formula(start_point)
+print ('We can also do that this way:')
+print ("We'd have %d  beans, %d jars, and %d crates." % secret_formula(start_point))
