@@ -77,3 +77,35 @@ def say_hello(msg):
 # calling the say_hello function
 say_hello('world') #=> hello world
 
+# 006_OOP
+# An object has:
+   # identity (a unique reference)
+   #    social security number (cpr), employee number, passport number
+   # state, also called characteristics (variables)
+   #     hungry, sad, drunk, running, alive
+   # behavior (methods)
+   #     eat, drink, wave, smile, kiss
+
+# Одна из самых популярных парадигм программирования называется объектно-ориентированным программированием (ООП).
+# В объектно-ориентированном программировании  объект  относится к конкретному экземпляру  класса .
+# А класс - это как план состояния и действий которые может выполнить объект.
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def get_name(self):
+        return self.name
+    # В объектно-ориентированном программировании 'конструктором класса' называют метод, 
+    # который автоматически вызывается при создании объектов. 
+    # В Python наличие пар знаков подчеркивания спереди и сзади в имени метода говорит о том, 
+    # что он принадлежит к группе методов перегрузки операторов. 
+    # Первый его параметр – self – ссылка на сам только что созданный объект.
+
+# Вот как создать объект Person
+p = Person('Alice', 22)
+p.get_name() #=> 'Alice'
+
+#007_OOP_conceptions
+
+
