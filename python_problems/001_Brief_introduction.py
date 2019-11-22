@@ -89,23 +89,84 @@ say_hello('world') #=> hello world
 # Одна из самых популярных парадигм программирования называется объектно-ориентированным программированием (ООП).
 # В объектно-ориентированном программировании  объект  относится к конкретному экземпляру  класса .
 # А класс - это как план состояния и действий которые может выполнить объект.
+
+# Создайте класс с именем Person, используйте функцию __init __ (), 
+# чтобы назначить значения для имени и возраста:
 class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
     
+    # Объекты также могут содержать методы. Методы в объектах - это функции, которые принадлежат объекту. 
     def get_name(self):
         return self.name
     # В объектно-ориентированном программировании 'конструктором класса' называют метод, 
     # который автоматически вызывается при создании объектов. 
+    
+    # Метод конструктора используется для инициализации данных. 
+    # Он запускается, как только создается экземпляр объекта класса. 
+    
     # В Python наличие пар знаков подчеркивания спереди и сзади в имени метода говорит о том, 
     # что он принадлежит к группе методов перегрузки операторов. 
-    # Первый его параметр – self – ссылка на сам только что созданный объект.
+    
+    # Используйте функцию __init __ () для присвоения значений свойствам объекта или другим операциям, 
+    # которые необходимо выполнить при создании объекта:
+    
+    # Обязательно это Первый параметр любой функции в классе – self 
+    # – ссылка на сам только что созданный объект.
+    # Параметр self является ссылкой на текущий экземпляр класса 
+    # и используется для доступа к переменным, принадлежащим классу.
 
 # Вот как создать объект Person
 p = Person('Alice', 22)
-p.get_name() #=> 'Alice'
 
-#007_OOP_conceptions
+print(p.age, p.name) #=> 22 Alice
 
+# Object Methods
+print(p.get_name()) #=> Alice
 
+# 007_OOP_conceptions
+# Encapsulation
+#   Data can be encapsulated such that it is invisible to the “outside world”
+#   Data can only be accessed via methods.
+#   
+#   procedural              class
+#                           -------------
+#   Data                    -Data       -
+#   Function                -Function   -
+#   Function                -Function   -
+#   Function                -Function   -
+#                           -------------
+# Polymorphism 
+# is the ability of one object to be treated and used like another object. 
+# For example, we treat duck as an animal and not just as a duck. 
+# Similarly we treat dog and cat also as animals.
+# 
+# Inheritance
+# Inheritance is an “is-a” relation, which inherits the attributes and behaviors from its parent class. 
+# For example, dog is an animal. It means animal is a parent class and Dog is the child class. 
+# The child class “Dog” inherits the attributes like age and weight from the parent class , which is an animal. 
+# The inheritance allows the child class to inherit the attributes and behaviors of its parent.
+#  
+# Class - проект, созданный программистом для объекта. 
+# Это определяет набор атрибутов, которые будут характеризовать любой объект, 
+# который создается из этого класса.
+class Shark:
+    def swim(self):
+        print("The shark is swimming.")
+
+    def be_awesome(self):
+        print("The shark is being awesome.")
+
+# Object — Объект является экземпляром класса.
+# Методы - это особый вид функций, определенных в классе.
+# Аргументом для этих функций является слово self, которое является ссылкой на объекты, созданные на основе этого класса.
+
+# Мы можем взять класс Shark, определенный выше, и использовать его для создания объекта или его экземпляра.
+# Мы сделаем объект класса Shark с именем sammy:
+sammy = Shark()
+# Здесь мы инициализировали объект sammy, как экземпляр класса, установив его равным Shark().
+
+# Воспользуемся двумя методами для объекта класса Shark, sammy:
+sammy.be_awesome() #=> The shark is being awesome.
+sammy.swim() #=> The shark is swimming.
