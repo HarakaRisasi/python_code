@@ -147,7 +147,9 @@ print(p.get_name()) #=> Alice
 # For example, dog is an animal. It means animal is a parent class and Dog is the child class. 
 # The child class “Dog” inherits the attributes like age and weight from the parent class , which is an animal. 
 # The inheritance allows the child class to inherit the attributes and behaviors of its parent.
-#  
+
+# 008_class_and_object
+# Class is a blueprint of the real-life entity.
 # Class - проект, созданный программистом для объекта. 
 # Это определяет набор атрибутов, которые будут характеризовать любой объект, 
 # который создается из этого класса.
@@ -170,3 +172,24 @@ sammy = Shark()
 # Воспользуемся двумя методами для объекта класса Shark, sammy:
 sammy.be_awesome() #=> The shark is being awesome.
 sammy.swim() #=> The shark is swimming.
+
+# 009_more_about_inheritance
+# As the name suggest, this concept is about inheriting properties from an existing entity. 
+class Person:
+    def __init__(self):
+        pass
+
+# single_level_inheritance
+class Employee(Person):
+    def __init__(self):
+        pass
+
+# multi-level inheritance
+class Manager(Employee):
+    def __init__(self):
+        pass
+
+# Multiple inheritance
+class Enterprenaur(Person, Employee):
+    def __init__(self):
+        pass
