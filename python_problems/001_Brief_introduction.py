@@ -175,21 +175,67 @@ sammy.swim() #=> The shark is swimming.
 
 # 009_more_about_inheritance
 # As the name suggest, this concept is about inheriting properties from an existing entity. 
-class Person:
-    def __init__(self):
-        pass
+# Inheritance is when a class uses code constructed within another class. 
+# Classes called child classes or subclasses inherit methods and variables from parent classes or base classes.
+# class Person:
+#     def __init__(self):
+#         pass
 
 # single_level_inheritance
-class Employee(Person):
-    def __init__(self):
-        pass
+# class Employee(Person):
+#     def __init__(self):
+#         pass
 
 # multi-level inheritance
-class Manager(Employee):
-    def __init__(self):
-        pass
+# class Manager(Employee):
+#     def __init__(self):
+#        pass
 
 # Multiple inheritance
-class Enterprenaur(Person, Employee):
-    def __init__(self):
-        pass
+# class Enterprenaur(Person, Employee):
+#     def __init__(self):
+#         pass
+
+# inherited parameters of class
+class Shark_mini:
+    animal_type = "fish"
+    location = "ocean"
+    followers = 5
+
+new_shark = Shark_mini()
+
+
+print(new_shark.animal_type, new_shark.location, new_shark.followers + 1) #=> fish ocean 6
+
+# Parent or base classes create a pattern out of which child or subclasses can be based on. 
+# Parent classes allow us to create child classes through 
+#  inheritance without having to write the same code over again each time. 
+# Any class can be made into a parent class, so they are each fully functional
+#  classes in their own right, rather than just templates.
+
+#class
+class Fish:
+    # method
+    def __init__(self, first_name, last_name = "Fish");
+        # attributes
+        self.first_name = first_name
+        self.last_name = last_name
+        self.skeleton = skeleton
+        self.eyelids = eyelids
+
+def swim(self):
+    print("The fish is swimming.")
+
+def swim_backwards(self):
+    print("The fish can swim backwards.")
+
+# Child or subclasses are classes that will inherit from the parent class. 
+# That means that each child class will be able to make use 
+#   of the methods and variables of the parent class.
+
+class Trout(Fish):
+    pass # так же удобно справа от pass писать комментарий, если планируется что - то в данной строке.
+# Pass - Оператор-заглушка, равноценный отсутствию операции.
+# В ходе исполнения данного оператора ничего не происходит, поэтому он может использоваться 
+# в качестве заглушки в тех местах, где это синтаксически необходимо, например: в инструкциях, 
+# где тело является обязательным, таких как def, except и пр.
