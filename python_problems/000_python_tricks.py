@@ -84,3 +84,17 @@ print(sys.getsizeof(f)) #=> 28
 print(sys.getsizeof(g)) #=> 24
 print(sys.getsizeof(h)) #=> 24
 print(sys.getsizeof(i)) #=> 24
+
+# How to print without newline in Python?
+print('apple', end=', ')
+print('mango', end=', ')
+print('banana')
+# apple, mango, banana
+
+print('apple')
+print('mango')
+print('banana')
+#=> 
+# apple
+# mango
+# banana
