@@ -1,3 +1,14 @@
+# 000_all
+# The Python for Loop
+# for <var> in <iterable>:
+#     <statement(s)>
+a = ['foo', 'bar', 'baz']
+for i in a:
+    print(i)
+#=> foo
+#=> bar
+#=> baz
+
 # 001_variables
 msg = "Hello World!"
 print(msg); #=> Hello World!
@@ -213,28 +224,28 @@ print(new_shark.animal_type, new_shark.location, new_shark.followers + 1) #=> fi
 # Any class can be made into a parent class, so they are each fully functional
 #  classes in their own right, rather than just templates.
 
-#class
-class Fish:
-    # method
-    def __init__(self, first_name, last_name = "Fish");
-        # attributes
-        self.first_name = first_name
-        self.last_name = last_name
-        self.skeleton = skeleton
-        self.eyelids = eyelids
-
-def swim(self):
-    print("The fish is swimming.")
-
-def swim_backwards(self):
-    print("The fish can swim backwards.")
+# class
+#  class Fish:
+#      # method
+#     def __init__(self, first_name, last_name = "Fish")
+#         # attributes
+#         self.first_name = first_name
+#         self.last_name = last_name
+#         self.skeleton = skeleton
+#         self.eyelids = eyelids
+# 
+# def swim(self):
+#     print("The fish is swimming.")
+#
+# def swim_backwards(self):
+#     print("The fish can swim backwards.")#
 
 # Child or subclasses are classes that will inherit from the parent class. 
 # That means that each child class will be able to make use 
 #   of the methods and variables of the parent class.
 
-class Trout(Fish):
-    pass # так же удобно справа от pass писать комментарий, если планируется что - то в данной строке.
+# class Trout(Fish):
+#     pass # так же удобно справа от pass писать комментарий, если планируется что - то в данной строке.
 # Pass - Оператор-заглушка, равноценный отсутствию операции.
 # В ходе исполнения данного оператора ничего не происходит, поэтому он может использоваться 
 # в качестве заглушки в тех местах, где это синтаксически необходимо, например: в инструкциях, 
