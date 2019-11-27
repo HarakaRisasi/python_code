@@ -9,6 +9,55 @@ for i in a:
 #=> bar
 #=> baz
 
+# Hello, Python!
+spam_amount = 0
+spam_amount += 4
+
+# The colon (:) at the end of the if line indicates 
+# that a new "code block" is starting.
+if spam_amount > 0:
+    print('But I don\'t want ANY spam!')
+
+viking_song = 'Spam Spam Spam'
+print(viking_song)
+
+print(spam_amount)
+
+# Numbers and arithmetic in Python
+# Operator	Name	        Description                                    Example
+# a + b	    Addition	    Sum of a and b                                 5 + 2 = 7
+# a - b	    Subtraction	    Difference of a and b                          5 - 2 = 3
+# a * b	    Multiplication	Product of a and b                             5 * 2 = 10
+# a / b	    True division	Quotient of a and b                            5 / 2 = 2.5
+# a // b	Floor division	Quotient of a and b, removing fractional parts 5 // 2 = 2
+# a % b	    Modulus	        Integer remainder after division of a by b     5 % 2 = 1
+# a ** b	Exponentiation	a raised to the power of b                     5 ** 2 = 25
+# -a	    Negation	    The negative of a                              -5
+
+# Order of operations
+hat_height_cm = 25
+my_height_cm = 189
+# how tall am I, in meters, when wearing my hat?
+total_height_maters = (hat_height_cm + my_height_cm) / 100
+
+print('Height in meters =', total_height_maters, '?') #=> Height in meters = 26.89 ?
+
+# Builtin functions for working with numbers
+# min and max
+print(min(1, 2, 3)) #=> 1
+print(max(1, 2, 3)) #=> 3
+
+# abs
+print(abs(32)) #=> 32
+print(abs(-32)) #=> 32
+
+# int and float can also be called as functions which convert 
+# their arguments to the corresponding type:
+print(float(10)) #=> 10.0
+print(int(3.33)) #=> 3
+print(int('909')) #=> 909
+print(int('909') + 1) #=> 910 
+
 # 001_variables
 msg = "Hello World!"
 print(msg); #=> Hello World!
