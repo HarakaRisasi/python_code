@@ -6,8 +6,6 @@ print(Descending_Order(1021)) #=> 2110
 
 #Discription:
 #----------------------------------
-# Time: 767ms
-#----------------------------------
 # steps:
 # 0 input num >> 1021
 # 1 str(num) >> '1021' 
