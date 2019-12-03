@@ -114,9 +114,32 @@ print(names[1]) #>> Risasi
 # input into the list
 # all the elements that follow this index are shifting to the right
 names.insert(0, 'Incognito')
-print(names) # ['Incognito', 'Haraka', 'Risasi']
+print(names) #>> ['Incognito', 'Haraka', 'Risasi']
 
 # remove from list
 # names.remove('Incognito')
 del names[0]
-print(names) # ['Haraka', 'Risasi']
+print(names) #>> ['Haraka', 'Risasi']
+
+# range
+num_range_0 = range(13)
+print(list(num_range_0)) #>> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+num_range_1 = range(4, 13)
+print(list(num_range_1)) #>> [4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+num_range_2 = range(0, 13, 2)
+print(list(num_range_2)) #>> [0, 2, 4, 6, 8, 10, 12]
+
+# set
+# Sets are often used for two purposes: 
+# - to remove duplicates and 
+# - to verify affiliation.
+x_set = [1, 1, 2, 3, 2, 6, 8, 3, 4, 5]
+x_set = set(x_set)
+print(x_set) #>> {1, 2, 3, 4, 5, 6, 8}
+# del 1, 2, 3 digits and sorted of list
+
+# To verify the affiliation, the operation is used in:
+print(4 in x_set) #>> True
+print(9 in x_set) #>> False
