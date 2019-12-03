@@ -98,3 +98,25 @@ print('banana')
 # apple
 # mango
 # banana
+
+# String split
+print(list('Haraka')) #>> ['H', 'a', 'r', 'a', 'k', 'a']
+
+# add elements to the end of list
+names = []
+names.append('Haraka')
+names.append('Risasi')
+
+print(names) #>> ['Haraka', 'Risasi']
+print(names[0]) #>> Haraka
+print(names[1]) #>> Risasi
+
+# input into the list
+# all the elements that follow this index are shifting to the right
+names.insert(0, 'Incognito')
+print(names) # ['Incognito', 'Haraka', 'Risasi']
+
+# remove from list
+# names.remove('Incognito')
+del names[0]
+print(names) # ['Haraka', 'Risasi']
