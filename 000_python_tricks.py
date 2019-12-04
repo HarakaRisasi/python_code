@@ -143,3 +143,15 @@ print(x_set) #>> {1, 2, 3, 4, 5, 6, 8}
 # To verify the affiliation, the operation is used in:
 print(4 in x_set) #>> True
 print(9 in x_set) #>> False
+
+
+numbers = [1,2,3,4,5,6,7]
+evens = [x for x in numbers if x % 2 is 0]
+odds = [y for y in numbers if y not in evens]
+
+cities = ['London', 'Dublin', 'Oslo']
+
+def visit(city):
+    print("Welcome to "+city)
+for city in cities:
+    visit(city)
