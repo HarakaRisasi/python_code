@@ -16,8 +16,8 @@ outcomes_a = 99 - 10 + 1
 # because the 10 first digits is  0, 1, 2, 3, 4, 5, 6, 7, 8, 9 or 10 digits
 
 # B)
-favorable_outcomes_b = 1 # 11, 22, 33, ..., 99
-outcomes_b = 90 - 9
+favorable_outcomes_b = 1 # one of nine  11, 22, 33, ..., 99
+outcomes_b = 90 - 9 # 90 - 9 or (11, 22, 33, ..., 99)
 
 print(f'a)\n{favorable_outcomes_a} / {outcomes_a} or {two_digits(favorable_outcomes_a, outcomes_a)} %')
 #>> 
