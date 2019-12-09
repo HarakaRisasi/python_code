@@ -111,4 +111,3 @@ print(man + woman)
 # >> C(1; 2) = 2
 
 #five division = (int(math.factorial(10) / (math.factorial(10) - math.factorial)
-
