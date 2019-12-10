@@ -155,3 +155,11 @@ def visit(city):
     print("Welcome to "+city)
 for city in cities:
     visit(city)
+
+# access to the last element
+my_num = [1, 2, 3, 4, 5, 6]
+print(my_num[-1]) #>> 6
+
+# python slicer increments
+my_list = [1, 2, 3, 4, 5, 6, 'dog', 7]
+print(my_list[::-1]) #>> [7, 'dog', 6, 5, 4, 3, 2, 1]
