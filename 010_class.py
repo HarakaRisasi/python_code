@@ -59,23 +59,87 @@ print(type(answer)) #>> <class 'str'>
 
 # Строки документации - строковые литералы, 
 # которые являются первым оператором в модуле, функции, классе или определении метода.
+
+# Создать класс:
+# Определяете нужные атрибуты. 
+#   Те атрибуты, которые существуют на уровне класса, размещаются в определении класса. 
+#   Атрибуты, уникальные для каждого экземпляра, размещаются в конструкторе.
+# Также можете определить методы с операциями, изменяющими экземпляр класса.
+
+# Методы также определяются на уровне класса, но атрибуты экземпляров — нет. 
+# Так как атрибуты экземпляров уникальны для объекта, они хранятся в экземпляре.
+
 class Chair:                            # name
     ''' A chair on a  chairlift '''     # documentation line
     max_occupants = 4                   # atributes of a class (4 occupants)
 
     def __init__(self, id):             # method(constructor)
-        self.id = id
+        self.id = id                    # inside constructor body, add two atributes 'id', 'count'
         self.count = 0
     
-    def load(self, number):
-        self.count += number
-    
+    def load(self, number):             # method 'load'.
+        self.count += number            # this method represents an operation that can be performed 
+                                        # by an instance of a class.             
     def unload(self, number):
         self.count -= number
 
 print(Chair.__doc__) #>> 'A chair on a  chairlift'
 
 # Атрибут класса используется для хранения состояния, общего для всех экземпляров класса.
+
 # Функция, определяемая прямо в теле класса, называется методом.
+
 # Так как этот метод имеет специальное имя __init__ , он называется конструктором.
-#   Конструктор вызывается при создании экземпляра класса.
+# Конструктор вызывается при создании экземпляра класса.
+
+# Метод получает два параметра, self и id . 
+# У большинства методов первым параметром является self. 
+
+# Его можно интерпретировать как экземпляр класса.
+
+# Конструктор вызывается при создании экземпляра класса.
+
+# В Python есть встроенная функция id , но вы также можете использовать
+# это имя как имя атрибута класса.
+
+# Если экземпляру было присвоено имя chair , то для получения значения id 
+# следует использовать запись chair.id . Таким образом,
+
+# Методы представляют собой функции, присоединенные к классу. 
+# Метод вызывается не сам по себе, а для конкретного экземпляра класса:
+# 'matt'.capitalize() #>> 'Matt 
+# встроенная функция не замещается.
+
+class try1:
+    def mymethod(self):
+        print("Hello")
+        print("Hi")
+        
+
+# create 'obj1' object for 'try1()' class.
+obj1 = try1()
+# called the method 'method()'.
+# a method may take arguments.
+obj1.mymethod() 
+#>> 
+# Hello
+# Hi
+
+class fruit_1:
+    def size(self, x):
+        print(f'I\'m size {x}')
+
+orange = fruit_1()
+orange.size(7) 
+#>> I'm size 7
+
+class fruit_2:
+    def __init__(self, color, size):
+        self.color = color
+        self.size = size
+    def salutation(self):
+        print(f'I\'m {self.color} and a size {self.size}')
+
+orange = fruit_2('Orange', 7)
+orange.salutation() 
+#>> I'm Orange and a size 7
