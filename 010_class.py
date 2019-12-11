@@ -110,14 +110,14 @@ print(Chair.__doc__) #>> 'A chair on a  chairlift'
 # 'matt'.capitalize() #>> 'Matt 
 # встроенная функция не замещается.
 
-class try1:
+class Try:
     def mymethod(self):
         print("Hello")
         print("Hi")
         
 
 # create 'obj1' object for 'try1()' class.
-obj1 = try1()
+obj1 = Try()
 # called the method 'method()'.
 # a method may take arguments.
 obj1.mymethod() 
@@ -125,21 +125,45 @@ obj1.mymethod()
 # Hello
 # Hi
 
-class fruit_1:
+class FruitOne:
     def size(self, x):
         print(f'I\'m size {x}')
 
-orange = fruit_1()
+orange = FruitOne()
 orange.size(7) 
 #>> I'm size 7
 
-class fruit_2:
+class FruitTwo:
     def __init__(self, color, size):
         self.color = color
         self.size = size
     def salutation(self):
         print(f'I\'m {self.color} and a size {self.size}')
 
-orange = fruit_2('Orange', 7)
+orange = FruitTwo('Orange', 7)
 orange.salutation() 
 #>> I'm Orange and a size 7
+
+# bank account class
+class BankAccount:
+    def __init__(self):
+        self.balance = 0
+
+    def withdraw(self, amount):
+        self.balance -= amount
+        # return self.balance
+        print(f'Withdrawal of -{amount} RUB from an account, balance your account = {self.balance} RUB')
+    
+    def deposit(self, amount):
+        self.balance +=  amount
+        # return self.balance
+        print(f'Depositing funds of +{amount} RUB, balance your account = {self.balance} RUB')
+    
+a = BankAccount()
+b = BankAccount()
+
+a.deposit(100000) #>> Depositing funds of +100000 RUB, balance your account = 100000 RUB
+a.withdraw(12546) #>> Withdrawal of -12546 RUB from an account, balance your account = 87454 RUB
+
+b.deposit(6584) #>> Depositing funds of +6584 RUB, balance your account = 6584 RUB
+b.withdraw(17) #>> Withdrawal of -17 RUB from an account, balance your account = 6567 RUB
