@@ -41,3 +41,18 @@ give_me_a_ferrari = Ferrari()
 give_me_a_car.exclaim() #>> I'am a Car!
 give_me_a_ferrari.exclaim() #>> I'am a Car!
 # класс Ferrari унаследовал метод exclaim() класса Car
+
+# modify_method_exclaim()_for_Ferrari_class
+class Car():
+    def exclaim(self):
+        print('I\'m a car!')
+
+class Ferrari(Car):
+    def exclaim(self):
+        print('I\'m a car! But more, i\'m a Ferrari.')
+
+give_me_a_car = Car()
+give_me_a_car.exclaim() #>> I'm a car!
+
+give_me_a_ferrari = Ferrari() #>> I'm a car! But more, i'm a Ferrari.
+give_me_a_ferrari.exclaim()
