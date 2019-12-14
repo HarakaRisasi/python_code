@@ -78,3 +78,22 @@ lawyer = JDPerson('Sherlock')
 print(person.name) #>> Haraka
 print(doctor.name) #>> Doctor Risasi
 print(lawyer.name) #>> Sherlock Esquire
+
+# Adding_Method_into_kid_class
+class Car():
+    def exclaim(self):
+        print('I\'am a car!')
+
+class Ferrari(Car):
+    def exclaim(self):
+        print('I\'m a car! But more, i\'m a Ferrari.')
+    def need_a_push(self):
+        print('A little help here?')
+
+# maked_class_object
+give_me_a_car = Car()
+give_me_a_ferrari = Ferrari()
+
+# call_method_of_class
+give_me_a_ferrari.need_a_push() #>> A little help here?
+give_me_a_ferrari.exclaim() #>> I'm a car! But more, i'm a Ferrari.
