@@ -97,3 +97,41 @@ give_me_a_ferrari = Ferrari()
 # call_method_of_class
 give_me_a_ferrari.need_a_push() #>> A little help here?
 give_me_a_ferrari.exclaim() #>> I'm a car! But more, i'm a Ferrari.
+
+# класс-потомок может добавить или перегрузить(изменить) метод класса-предка.
+
+# test
+class Dog():
+    species = 'mammal'
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+philo = Dog('Philo', 5)
+mikey = Dog('Mikey', 6)
+
+print(f'{philo.name} is {philo.age} and {mikey.name} is {mikey.age}')
+#>> Philo is 5 and Mikey is 6
+
+# Is Philo a mammal?
+if philo.species == 'mammal':
+    print(f'{philo.name} is a {philo.species}!')
+    #>> Philo is a mammal!
+
+
+
+
+
+
+
+
+
+
+class Person():
+    def __init__(self, name):
+        self.name = name
+    
+class EmailPerson(Person):
+    def __init__(self, name, email):
+        super().__init__(name)
+        self.email = email
