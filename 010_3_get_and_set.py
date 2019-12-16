@@ -38,3 +38,20 @@ class Duck():
 
 fowl = Duck('Howard')
 print(fowl.name)
+#>> 
+# inside the getter
+# Howard
+
+# Вы можете вызвать метод get_name() непосредственно, как обычный геттер:
+fowl.get_name()
+#>> inside the getter
+
+# при присваиваении значения атрибуту name , вызывается метод set_name():
+fowl.name = 'Duffy'
+#>> inside the setter
+fowl.name
+#>> inside the getter
+
+# Метод set_name() вы также можете вызвать непосредственно:
+fowl.set_name('Buffy')
+#>> inside the setter
