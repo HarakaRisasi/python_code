@@ -3,18 +3,13 @@
 import subprocess
 subprocess.call("clear")
 
-def prime_factors(n):
-    i = 2
-    factors = []
-    while i < n:
-        if n % i:
-            i += 1
-        else:
-            n //= i # Floor-Divide and Assign(//=)
-            factors.append(i)
-    if n > 1:
-        factors.append(n)
-    return factors
+def factors(num):
+    '''returns a list of the factors of num'''
+    factorList = []
+    for i in range(1, num+1):
+        if num % i == 0:
+            factorList.append(i)
+    return factorList
 
 def largest_prime_factor(n):
     i = 2
@@ -25,9 +20,5 @@ def largest_prime_factor(n):
             n //= i # Floor-Divide and Assign(//=)
     return n
 
-
-print(prime_factors(600851475143))
-print(largest_prime_factor(600851475143))
-
-print(prime_factors(13195))
-print(largest_prime_factor(13195))
+print(factors(42))
+print(largest_prime_factor(42))
