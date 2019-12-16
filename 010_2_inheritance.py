@@ -100,6 +100,21 @@ give_me_a_ferrari.exclaim() #>> I'm a car! But more, i'm a Ferrari.
 
 # класс-потомок может добавить или перегрузить(изменить) метод класса-предка.
 
+# repeat(class andwhat is constructor)
+# class Person:
+#    def __init__(self, name, age):
+#        self.name = name
+#        self.age = age
+
+# - class – Here is a class named Person.
+# - Constructors have the default name __init__. 
+#   They are functions that are implicitly called when an object of 
+#   the class is created.
+# - All instance methods including the constructor 
+#   have their first parameter as self.
+# - self refers to instance that is being referenced while calling the method.
+# - name and age are the instance variables.#
+
 # test
 class Dog():
     species = 'mammal'
@@ -119,19 +134,57 @@ if philo.species == 'mammal':
     #>> Philo is a mammal!
 
 
-
-
-
-
-
-
-
-
+# метод super() - ecли нужно вызвать оригинальный метод родительского класса?
 class Person():
     def __init__(self, name):
         self.name = name
-    
+
 class EmailPerson(Person):
     def __init__(self, name, email):
         super().__init__(name)
         self.email = email
+        # Строка self.email = email 
+        # — это новый код, который отличает класс EmailPerson от класса Person .
+
+# Когда определяеся метод __init__() для своего класса, 
+# происходит замена метода __init__() родительского класса,
+# который больше не вызывается автоматически.
+# - нужен не явный вызов родительского класса
+# - Метод super() получает определение родительского класса Person.
+# - Метод __init__() класса EmailPerson, вызывает метод __init__() класса Person.
+# - Последний заботится о том, чтобы передать аргумент self суперклассу, 
+#   поэтому вам нужно лишь передать опциональные аргументы.
+#   В нашем случае единственным аргументом класса Person() будет name.
+# - Строка self.email = email — это новый код, который отличает 
+#   класс EmailPerson от класса Person.
+
+bob = EmailPerson('Bob', 'bobhardy@gmail.com')
+print(f'Client name: {bob.name}\ne-mail: {bob.email}')
+#>>
+# Client name: Bob
+# e-mail: bobhardy@gmail.com
+
+# Почему бы нам просто не определить новый класс так, как показано далее?
+class Person():
+    def __init__(self, name, email):
+        self.name = name
+        self.email = email
+
+haraka = Person('Haraka', 'haraka@gmail.com')
+
+print(f'name: {haraka.name}\ne-mail: {haraka.email}')
+#>> 
+# name: Haraka
+# e-mail: haraka@gmail.com
+
+# Мы могли бы сделать это, 
+# но в таком случае потеряли бы возможность применять наследование. 
+# Мы использовали метод super(), чтобы создать объект, который работает примерно 
+# так же, как и объект класса Person. 
+# Есть и другое преимущество:
+# если определение класса Person в будущем изменится, 
+# с помощью метода super() мы сможем гарантировать, что атрибуты и методы, 
+# которые класс EmailPerson наследует от класса Person, 
+# отреагируют на изменения.
+# Используйте метод super() , когда потомок делает что-то самостоятельно, 
+# но ему все еще нужно что-то от предка (как и в реальной жизни).
