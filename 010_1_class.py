@@ -238,4 +238,20 @@ print(f'The Donald is {donald.name}') # The Donald is Duck
 # - сохраняет в объекте значение переменной name
 # - возвращает новый объект
 # - прикрепляет к объекту имя Donald
-# #
+
+# test
+class Cat():
+    def __init__(self, name, age, sex, eye_color, color):        
+        self.name = name
+        self.age = age
+        self.sex = sex
+        self.eye_color = eye_color
+        self.color = color
+
+cat_034 = Cat('Artemis', 3, 'M', 'Gray', 'White')
+
+print(f'Cat_034 {cat_034.name} is {cat_034.age} years')
+#>> Cat_034 Artemis is 3 years
+
+print(f'Cat_034 gender {cat_034.sex}, his color is {cat_034.color} and his eye color is {cat_034.eye_color}')
+#>> Cat_034 gender M, his color is White and his eye color is Gray
