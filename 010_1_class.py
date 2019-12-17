@@ -258,6 +258,7 @@ class Cat():
         '''Simulate rolling over in response to a command.'''
         print(f'{self.name} rolled over.')
 
+# make instance from a class Cat
 cat_034 = Cat('Artemis', 3, 'M', 'Gray', 'White')
 
 print(f'Cat_034 {cat_034.name} is {cat_034.age} years')
