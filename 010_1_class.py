@@ -241,17 +241,29 @@ print(f'The Donald is {donald.name}') # The Donald is Duck
 
 # test
 class Cat():
-    def __init__(self, name, age, sex, eye_color, color):        
+    '''A simple attempt to model a cat.'''
+    def __init__(self, name, age, sex, eye_color, color):
+        '''Initialize name, age, sex, eye_color, color attributes.'''   
         self.name = name
         self.age = age
         self.sex = sex
         self.eye_color = eye_color
         self.color = color
 
+    def sit(self):
+        '''Simulate a cat sitting in response to a command.'''
+        print(f'{self.name} is now sitting.')
+
+    def roll_over(self):
+        '''Simulate rolling over in response to a command.'''
+        print(f'{self.name} rolled over.')
+
 cat_034 = Cat('Artemis', 3, 'M', 'Gray', 'White')
 
 print(f'Cat_034 {cat_034.name} is {cat_034.age} years')
 #>> Cat_034 Artemis is 3 years
-
 print(f'Cat_034 gender {cat_034.sex}, his color is {cat_034.color} and his eye color is {cat_034.eye_color}')
 #>> Cat_034 gender M, his color is White and his eye color is Gray
+
+cat_034.sit() #>> Artemis is now sitting.
+cat_034.roll_over() #>> Artemis rolled over.
