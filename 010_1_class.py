@@ -268,3 +268,33 @@ print(f'Cat_034 gender {cat_034.sex}, his color is {cat_034.color} and his eye c
 
 cat_034.sit() #>> Artemis is now sitting.
 cat_034.roll_over() #>> Artemis rolled over.
+
+# test
+class Car:
+    '''A simple attempt to represent a car.'''
+
+    def __init__(self, manufacturer, model, year):
+        '''Initialize attributes to describe a car.'''
+        self.manufacturer = manufacturer
+        self.model = model
+        self.year = year
+        #default attributes
+        self.odometr_reading = 0
+    
+    def get_descriptive_name(self):
+        '''Return a neatly formatted descriptive name.'''
+        long_name = f'{self.year} {self.manufacturer} {self.model}'
+        return long_name.title()
+
+    def read_odometr(self):
+        '''Print a statement showing the car\'s mileage.'''
+        print(f'This car has {self.odometr_reading} miles on it.')
+    
+my_new_car = Car('UAZ', 'Patriot', 2019)
+
+print(my_new_car.get_descriptive_name()) #>> 2019 Uaz Patriot
+my_new_car.read_odometr() #>> This car has 0 miles on it.
+
+# test(Modifying Attribute Values)
+my_new_car.odometr_reading = 23
+my_new_car.read_odometr() #>> This car has 23 miles on it.
