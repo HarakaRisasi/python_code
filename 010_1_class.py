@@ -285,16 +285,38 @@ class Car:
         '''Return a neatly formatted descriptive name.'''
         long_name = f'{self.year} {self.manufacturer} {self.model}'
         return long_name.title()
-
+    
     def read_odometr(self):
         '''Print a statement showing the car\'s mileage.'''
         print(f'This car has {self.odometr_reading} miles on it.')
     
+    def update_odometr(self, mileage):
+        '''
+        Set the odometer reading to the given value.
+        Reject the change if it attempts to roll the odometer back.
+        '''
+        if mileage >= self.odometr_reading:
+            self.odometr_reading = mileage
+        else:
+            print(f'You can\'t roll back an odometer!')
+    
+    def increment_odometr(self, miles):
+        '''Add the given amount to the odometer reading.'''
+        self.odometr_reading += miles
+        print(f'The car drove plus {miles} miles on it')
+    
 my_new_car = Car('UAZ', 'Patriot', 2019)
 
 print(my_new_car.get_descriptive_name()) #>> 2019 Uaz Patriot
-my_new_car.read_odometr() #>> This car has 0 miles on it.
 
 # test(Modifying Attribute Values)
-my_new_car.odometr_reading = 23
+my_new_car.update_odometr(2)
 my_new_car.read_odometr() #>> This car has 23 miles on it.
+
+my_new_car.increment_odometr(100) #>> This car now has +100 miles on it
+my_new_car.read_odometr() #>> This car has 123 miles on it.
+#>>
+# 2019 Uaz Patriot
+# This car has 2 miles on it.
+# The car drove plus 100 miles on it
+# This car has 102 miles on it.
