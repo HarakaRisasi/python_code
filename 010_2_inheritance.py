@@ -188,6 +188,7 @@ print(f'name: {haraka.name}\ne-mail: {haraka.email}')
 # отреагируют на изменения.
 # Используйте метод super() , когда потомок делает что-то самостоятельно, 
 # но ему все еще нужно что-то от предка (как и в реальной жизни).
+
 ###################################################################
 # test
 # Parent class
@@ -277,12 +278,12 @@ class ElectricCar(Car):
 # может быть записана как отдельный класс. 
 # Вы можете разбить свой большой класс на меньшие классы, которые работают вместе.
 
-my_Tesla = ElectricCar('Jaguar', 'E-type', 2019)
-print(my_Tesla.get_descriptive_name()) #>> 2019 Jaguar E-type
+my_Jaguar = ElectricCar('Jaguar', 'E-type', 2019)
+print(my_Jaguar.get_descriptive_name()) #>> 2019 Jaguar E-type
 
 # Эта строка говорит Python 
-my_Tesla.battery.describe_battery() #>> This car has a 75 - kWh battery.
-# - посмотреть на инстанс my_Tesla,
+my_Jaguar.battery.describe_battery() #>> This car has a 75 - kWh battery.
+# - посмотреть на инстанс my_Jaguar,
 # - найти атрибут battery
 # - вызвать метод describe_battery()
 
@@ -291,6 +292,6 @@ my_Tesla.battery.describe_battery() #>> This car has a 75 - kWh battery.
 # насколько мы хотим, не загромождая класс ElectricCar.
 
 # input battery level
-my_Tesla.battery.get_range()
+my_Jaguar.battery.get_range()
 #>> This car can go about 236 miles on a 75% charge.
 ###################################################################
