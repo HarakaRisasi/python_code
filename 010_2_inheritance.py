@@ -188,8 +188,9 @@ print(f'name: {haraka.name}\ne-mail: {haraka.email}')
 # отреагируют на изменения.
 # Используйте метод super() , когда потомок делает что-то самостоятельно, 
 # но ему все еще нужно что-то от предка (как и в реальной жизни).
-
+###################################################################
 # test
+# Parent class
 class Car:
     '''A simple attempt to represent a car.'''
 
@@ -214,7 +215,10 @@ class Car:
     
     def increment_odometer(self, miles):
         self.odometer_reading += miles
+###################################################################
 
+###################################################################
+# Child class
 class ElectricCar(Car):
     '''Represent aspects of a car, specifie to electric vehicles.'''
 
@@ -224,12 +228,69 @@ class ElectricCar(Car):
         Then nitialize attribetes specific to an electric car.
         '''
         super().__init__(make, model, year)
-        self.battary_size = 75 # add a new attribute
+        self.battery_size = 75 # add a new attribute
     
     def describe_battery(self):
         '''Print a statement describing the battery size.'''
-        print(f'This car has a {self.battary_size} -kWh battery.')
+        print(f'This car has a {self.battery_size} -kWh battery.')
+    
+    def fill_gas_tank(self):
+        '''Electric cars don\'t have gas tanks.'''
+        print(f'This car doesn\'t need a gas tank!')
+
+# When you use inheritance, you can make
+# your child classes retain what you need and override anything
+# you don’t need from the parent class.
 
 my_Tesla = ElectricCar('Tesla', 'model X', 2019)
 print(my_Tesla.get_descriptive_name()) #>> 2019 Tesla model X
 my_Tesla.describe_battery() #>> This car has a 75 -kWh battery.
+###################################################################
+
+###################################################################
+# Battery ()
+# Then we can use a instance as an attribute in the ElectricCar class:
+class Battery:
+    '''A simple attempt to model a battery for an electric car.'''
+
+    def __init__(self, battery_size = 75):
+        '''Initialize the battery\'s attributes.'''
+        self.battery_size = battery_size
+    
+    def describe_battery(self):
+        '''Print a statement describing the battery size.'''
+        print(f'This car has a {self.battery_size} - kWh battery.')
+###################################################################
+
+###################################################################
+# При моделировании чего-то из реального мира в коде вы можете обнаружить, 
+# что добавляете все больше и больше деталей в класс. 
+# Вы обнаружите, что у вас есть растущий список атрибутов и методов, 
+# и что ваши файлы становятся длиннее. 
+# В этих ситуациях вы можете распознать, что часть одного класса 
+# может быть записана как отдельный класс. 
+# Вы можете разбить свой большой класс на меньшие классы, 
+# которые работают вместе.
+class ElectricCar(Car):
+    '''Represent aspects of a car, specifie to electric vehicles.'''
+
+    def __init__(self, make, model, year):
+        '''
+        Initialize attributes of the parent class.
+        Then nitialize attribetes specific to an electric car.
+        '''
+        super().__init__(make, model, year)
+        self.battery = Battery() # add a new attribute
+    
+    def describe_battery(self):
+        '''Print a statement describing the battery size.'''
+        print(f'This car has a {self.battery_size} -kWh battery.')
+    
+    def fill_gas_tank(self):
+        '''Electric cars don\'t have gas tanks.'''
+        print(f'This car doesn\'t need a gas tank!')
+
+my_Tesla = ElectricCar('Jaguar', 'E-type', 2019)
+print(my_Tesla.get_descriptive_name()) #>> 2019 Jaguar E-type
+my_Tesla.battery.describe_battery() #>> This car has a 75 - kWh battery.
+###################################################################
