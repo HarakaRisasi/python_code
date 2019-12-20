@@ -218,6 +218,33 @@ class Car:
 ###################################################################
 
 ###################################################################
+# Specific class
+# Battery () - Отдельный класс созданный для подробного описания части объекта. 
+# Его суть в том, чтобы разгрузить объем кода написанного для класса. 
+# В данном случае класс описывающий объект 'Battery' будет содержать 
+# важные только для себя атрибуты и тем самым перегружать код объекта 'ElectroCar'.
+# Этот класс можно использовать в основном классе как атрибут.
+# self.battery = Battery()
+
+# Then we can use a instance as an attribute in the ElectricCar class:
+class Battery:
+    '''A simple attempt to model a battery for an electric car.'''
+    
+    def __init__(self, battery_size = int(input())):
+        '''Initialize the battery\'s attributes.'''
+        self.battery_size = battery_size
+    
+    def describe_battery(self):
+        '''Print a statement describing the battery size.'''
+        print(f'This car has a {self.battery_size} - kWh battery.')
+    
+    def get_range(self):
+        '''Print a statement about the range this battery prosides.'''
+        range = int(self.battery_size * 3.15)       
+        print(f'This car can go about {range} miles on a {self.battery_size}% charge.')
+###################################################################
+
+###################################################################
 # Child class
 class ElectricCar(Car):
     '''Represent aspects of a car, specifie to electric vehicles.'''
@@ -228,7 +255,7 @@ class ElectricCar(Car):
         Then nitialize attribetes specific to an electric car.
         '''
         super().__init__(make, model, year)
-        self.battery_size = 75 # add a new attribute
+        self.battery = Battery() # add a new attribute from 'class Battery()'
     
     def describe_battery(self):
         '''Print a statement describing the battery size.'''
@@ -242,53 +269,13 @@ class ElectricCar(Car):
 # your child classes retain what you need and override anything
 # you don’t need from the parent class.
 
-my_Tesla = ElectricCar('Tesla', 'model X', 2019)
-print(my_Tesla.get_descriptive_name()) #>> 2019 Tesla model X
-my_Tesla.describe_battery() #>> This car has a 75 -kWh battery.
-###################################################################
-
-###################################################################
-# Battery ()
-# Then we can use a instance as an attribute in the ElectricCar class:
-class Battery:
-    '''A simple attempt to model a battery for an electric car.'''
-
-    def __init__(self, battery_size = 75):
-        '''Initialize the battery\'s attributes.'''
-        self.battery_size = battery_size
-    
-    def describe_battery(self):
-        '''Print a statement describing the battery size.'''
-        print(f'This car has a {self.battery_size} - kWh battery.')
-###################################################################
-
-###################################################################
 # При моделировании чего-то из реального мира в коде вы можете обнаружить, 
 # что добавляете все больше и больше деталей в класс. 
 # Вы обнаружите, что у вас есть растущий список атрибутов и методов, 
 # и что ваши файлы становятся длиннее. 
 # В этих ситуациях вы можете распознать, что часть одного класса 
 # может быть записана как отдельный класс. 
-# Вы можете разбить свой большой класс на меньшие классы, 
-# которые работают вместе.
-class ElectricCar(Car):
-    '''Represent aspects of a car, specifie to electric vehicles.'''
-
-    def __init__(self, make, model, year):
-        '''
-        Initialize attributes of the parent class.
-        Then nitialize attribetes specific to an electric car.
-        '''
-        super().__init__(make, model, year)
-        self.battery = Battery() # add a new attribute
-    
-    def describe_battery(self):
-        '''Print a statement describing the battery size.'''
-        print(f'This car has a {self.battery_size} -kWh battery.')
-    
-    def fill_gas_tank(self):
-        '''Electric cars don\'t have gas tanks.'''
-        print(f'This car doesn\'t need a gas tank!')
+# Вы можете разбить свой большой класс на меньшие классы, которые работают вместе.
 
 my_Tesla = ElectricCar('Jaguar', 'E-type', 2019)
 print(my_Tesla.get_descriptive_name()) #>> 2019 Jaguar E-type
@@ -298,4 +285,12 @@ my_Tesla.battery.describe_battery() #>> This car has a 75 - kWh battery.
 # - посмотреть на инстанс my_Tesla,
 # - найти атрибут battery
 # - вызвать метод describe_battery()
+
+# Это выглядит как большая дополнительная работа, 
+# но теперь мы можем описать батарею настолько подробно, 
+# насколько мы хотим, не загромождая класс ElectricCar.
+
+# input battery level
+my_Tesla.battery.get_range()
+#>> This car can go about 236 miles on a 75% charge.
 ###################################################################
