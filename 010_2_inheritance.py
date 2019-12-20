@@ -292,5 +292,10 @@ class ElectricCar(Car):
 
 my_Tesla = ElectricCar('Jaguar', 'E-type', 2019)
 print(my_Tesla.get_descriptive_name()) #>> 2019 Jaguar E-type
+
+# Эта строка говорит Python 
 my_Tesla.battery.describe_battery() #>> This car has a 75 - kWh battery.
+# - посмотреть на инстанс my_Tesla,
+# - найти атрибут battery
+# - вызвать метод describe_battery()
 ###################################################################
