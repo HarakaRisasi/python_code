@@ -188,3 +188,48 @@ print(f'name: {haraka.name}\ne-mail: {haraka.email}')
 # отреагируют на изменения.
 # Используйте метод super() , когда потомок делает что-то самостоятельно, 
 # но ему все еще нужно что-то от предка (как и в реальной жизни).
+
+# test
+class Car:
+    '''A simple attempt to represent a car.'''
+
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+        self.odometer_reading = 0
+    
+    def get_descriptive_name(self):
+        long_name = f'{self.year} {self.make} {self. model}'
+        return long_name
+    
+    def read_odometer(self):
+        print(f'This car has {self.odometer_reading} miles on it')
+    
+    def update_odometer(self, mileage):
+        if mileage >= self.odometer_reading:
+            self.odometer_reading = mileage
+        else:
+            print('You can\'t roll back an odometer!')
+    
+    def increment_odometer(self, miles):
+        self.odometer_reading += miles
+
+class ElectricCar(Car):
+    '''Represent aspects of a car, specifie to electric vehicles.'''
+
+    def __init__(self, make, model, year):
+        '''
+        Initialize attributes of the parent class.
+        Then nitialize attribetes specific to an electric car.
+        '''
+        super().__init__(make, model, year)
+        self.battary_size = 75 # add a new attribute
+    
+    def describe_battery(self):
+        '''Print a statement describing the battery size.'''
+        print(f'This car has a {self.battary_size} -kWh battery.')
+
+my_Tesla = ElectricCar('Tesla', 'model X', 2019)
+print(my_Tesla.get_descriptive_name()) #>> 2019 Tesla model X
+my_Tesla.describe_battery() #>> This car has a 75 -kWh battery.
