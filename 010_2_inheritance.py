@@ -312,3 +312,31 @@ my_Jaguar.battery.get_range()
 # и переписываете их несколько раз, используя разные подходы. 
 # В стремлении написать точный и эффективный код 
 # каждый проходит через этот процесс.
+###################################################################
+
+###################################################################
+# test(restaurant)
+class Restaurant:
+    def __init__(self, restaurant_name, cuisine_type):
+        self.restaurant_name = restaurant_name
+        self. cuisine_type = cuisine_type
+    
+    def describe_restaurant(self):
+        print(f'{self.restaurant_name} Restaurant')
+        print(f'Cuisine type: {self.cuisine_type}')
+    
+    def open_restaurant(self):
+        print(f'We are Open! Welcome.')
+
+restaurant = Restaurant('Harafood de Paris', 'Cajun Food')
+
+restaurant.describe_restaurant()
+restaurant.open_restaurant()
+#>> 
+# Harafood de Paris Restaurant
+# Cuisine type: Cajun Food
+# We are Open! Welcome.
+
+class IceCreamStand(Restaurant):
+    def __init__(restaurant_name, cuisine_type):
+        super().__init__(restaurant_name, cuisine_type)
