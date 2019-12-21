@@ -317,6 +317,7 @@ my_Jaguar.battery.get_range()
 ###################################################################
 # test(restaurant)
 class Restaurant:
+    # Параметр self представляет экземпляр ( Restaurant в данном случае).
     def __init__(self, restaurant_name, cuisine_type):
         self.restaurant_name = restaurant_name
         self. cuisine_type = cuisine_type
@@ -328,8 +329,10 @@ class Restaurant:
     def open_restaurant(self):
         print(f'We are Open! Welcome.')
 
+# the 'restaurant' variable points to an object, that is, an instance.
 restaurant = Restaurant('Harafood de Paris', 'Cajun Food')
 
+# call methods
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
 #>> 
@@ -340,3 +343,12 @@ restaurant.open_restaurant()
 class IceCreamStand(Restaurant):
     def __init__(restaurant_name, cuisine_type):
         super().__init__(restaurant_name, cuisine_type)
+        #>>>> TO BE CONTINUED
+        
+###################################################################
+# Анализ экземпляра
+# Если у вас имеется экземпляр и вы хотите узнать его атрибуты, 
+# есть несколько вариантов.
+# «...возвращает упорядоченный по алфавиту список имен, включающий
+# (некоторые) атрибуты заданного объекта, а также атрибуты, доступные из него».
+print(dir(Restaurant))
