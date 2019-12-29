@@ -20,5 +20,5 @@ def largest_prime_factor(n):
             n //= i # Floor-Divide and Assign(//=)
     return n
 
-print(factors(42))
+print(factors(72))
 print(largest_prime_factor(44))
