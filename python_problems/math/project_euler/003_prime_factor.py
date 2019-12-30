@@ -21,4 +21,4 @@ def largest_prime_factor(n):
     return n
 
 print(factors(72))
-print(largest_prime_factor(44))
+print(largest_prime_factor(43))
