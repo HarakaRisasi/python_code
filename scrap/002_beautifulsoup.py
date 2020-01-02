@@ -55,9 +55,35 @@ subprocess.call("clear")
 # - Различные методы защиты от роботов. 
 #   Установка на сайте авторизации, которую может пройти только человек (ввод капчи, подтверждение регистрации и другие способы).
 # #
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
-html = urlopen('http://www.pythonscraping.com/pages/page1.html')
-bs = BeautifulSoup(html.read(), 'html.parser')
-print(bs.h1) #>> <h1>An Interesting Title</h1>
-print(bs.div) #>> Lorem ipsum dolor sit amet, consectetur adipisicing elit, ...
+
+#from urllib.request import urlopen
+#from bs4 import BeautifulSoup
+
+#####################################################################################################################
+import re # using Regex
+import requests
+from lxml import html
+
+url = 'https://www.rusprofile.ru/codes/'
+response = requests.get(url)
+parser_tree = html.fromstring(response.content)
+response = parser_tree.xpath('//*[@id="main"]/div/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/a//text()')
+
+# convert a list to string
+listToStr = ' '.join([str(elem) for elem in response]) #.replace('\n','')
+
+# use a regular expression to match whitespace and remove them using re.sub() function.
+# strip() - remove spaces from both side
+
+print(re.sub(r"\s+", " ", listToStr.strip()))
+#>> Производство кухонной мебели, кроме изготовленной по индивидуальному заказу населения (12)
+#####################################################################################################################
+
+# [@attribute = 'value']
+# //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[2]/div[1]/div[2]/a
+# //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[3]/div[1]/div[2]/a
+# //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[4]/div/div[2]/a
+# //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[5]/div[1]/div[2]/a
+# //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[6]/div/div[2]/a
+# //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[7]/div[1]/div[2]/a
+# //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[8]/div/div[2]/a
