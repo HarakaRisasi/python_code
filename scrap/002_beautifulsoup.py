@@ -84,8 +84,68 @@ print(re.sub(r"\s+", " ", listToStr.strip()))
 # Даже если XPath не является языком программирования сам по себе, 
 # он позволяет вам писать выражения, которые могут напрямую обращаться к определенному элементу HTML 
 # без необходимости проходить через все дерево HTML.
+#
+# XPath может найти элемент по идентификатору, например так: [@attribute = 'value'] or ex.//*[@id="main"]
 
-# [@attribute = 'value']
+# THE BIG EXAMPLE OF XPATH
+# //*[@id="dhContent"]/pre[4]/font[3]/font/text()
+# <div id="dhContent">
+#     <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Примеры локатора XPath</font></font></h1>
+#     <div class="landing-page-7mh">
+#         <link href="/css/how-many-users.css" rel="stylesheet">
+#         <div class="page-title grid">
+#             <h2 class="unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Консалтинг веб-производительности</font></font></h2>
+#             <div class="product-actions var--footer">
+#                 <span><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+#         Наши специалисты узнают, сколько пользователей </font><font style="vertical-align: inherit;">может обработать </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ваш сайт</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ! </font></font><br>
+#       </span>
+#                 <br> &nbsp;
+#                 <br>
+#                 <a href="/load-testing-consulting-services/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Учить больше</font></font></a>
+#             </div>
+#             <p></p>
+#         </div>
+#         <p></p>
+#     </div>
+#     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Если вы новичок в XPath, мощь и гибкость XPath могут немного сбить с толку. </font><font style="vertical-align: inherit;">Эта страница содержит несколько примеров, с которых можно начать. </font><font style="vertical-align: inherit;">После этого я рекомендую ресурсы XPath, указанные на нашей </font><font style="vertical-align: inherit;">странице </font></font><a href="https://www.webperformance.com/load-testing-tools/blog/?page_id=4623"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Типы локаторов элементов</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .</font></font>
+#     </p>
+#     <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">«Сырой» XPath</font></font></h2>
+#     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Чтобы найти ссылку на этой странице:</font></font>
+#     </p>
+#     <pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&lt;HTML&gt; &lt;тело&gt;</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+#     &lt;p&gt; Лиса перепрыгнула через ленивую коричневую &lt;a href="dogs.html"&gt; собаку &lt;/a&gt;. &lt;/ p&gt;</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+#     &lt;/ Body&gt; &lt;/ html&gt;</font></font></pre>
+#     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Необработанный XPath пересекает иерархию от корневого элемента документа (страницы) до нужного элемента:</font></font>
+#     </p>
+#     <pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ HTML / тело / р / а</font></font></pre>
+#     <p>&nbsp;</p>
+#     <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID дочернего элемента</font></font></h2>
+#     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">XPath может найти элемент по идентификатору, например так:</font></font>
+#     </p>
+#     <pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">// * [@ ид = "ELEMENT_ID"]</font></font></pre>
+#     <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Так что, если вам нужно найти элемент, который находится рядом с другим элементом с идентификатором, как ссылка в этом примере:</font></font>
+#     </p>
+#
+########### EXAMPLE XPATH ###########
+# /pre[4]/font[3]/font
+#     <pre>
+#         <font style="vertical-align: inherit;">
+#             <font style="vertical-align: inherit;">&lt;HTML&gt; &lt;тело&gt;</font>
+#         </font>
+#         <font></font>
+#         <font style="vertical-align: inherit;">
+#             <font style="vertical-align: inherit;">
+#                 &lt;p id = "fox"&gt; Лиса перепрыгнула через ленивую коричневую &lt;a href="dogs.html"&gt; собаку &lt;/a&gt;. &lt;/ p&gt;
+#             </font>
+#         </font>
+#         <font></font>
+#         <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+#             &lt;/ Body&gt; &lt;/ html&gt;
+#         </font>
+#         </font>
+#     </pre>
+
+
 # //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[2]/div[1]/div[2]/a
 # //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[3]/div[1]/div[2]/a
 # //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[4]/div/div[2]/a
