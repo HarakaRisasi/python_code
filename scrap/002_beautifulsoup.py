@@ -64,10 +64,10 @@ import re # using Regex
 import requests
 from lxml import html
 
-url = 'https://www.rusprofile.ru/codes/'
+url = 'https://www.rusprofile.ru/codes/411000'
 response = requests.get(url)
 parser_tree = html.fromstring(response.content)
-response = parser_tree.xpath('//*[@id="main"]/div/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/a//text()')
+response = parser_tree.xpath('//*[@id="main"]/div/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div/div[2]/a/text()')
 
 # convert a list to string
 listToStr = ' '.join([str(elem) for elem in response]) #.replace('\n','')
@@ -77,7 +77,13 @@ listToStr = ' '.join([str(elem) for elem in response]) #.replace('\n','')
 
 print(re.sub(r"\s+", " ", listToStr.strip()))
 #>> Производство кухонной мебели, кроме изготовленной по индивидуальному заказу населения (12)
-#####################################################################################################################
+#  ####################################################################################################################
+
+# XPath - это технология, которая использует выражения пути для выбора узлов или наборов узлов в документе XML 
+# (или в нашем случае в документе HTML). 
+# Даже если XPath не является языком программирования сам по себе, 
+# он позволяет вам писать выражения, которые могут напрямую обращаться к определенному элементу HTML 
+# без необходимости проходить через все дерево HTML.
 
 # [@attribute = 'value']
 # //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[2]/div[1]/div[2]/a
@@ -87,3 +93,7 @@ print(re.sub(r"\s+", " ", listToStr.strip()))
 # //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[6]/div/div[2]/a
 # //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[7]/div[1]/div[2]/a
 # //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[8]/div/div[2]/a
+#//*[@id="main"]/div/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/text()
+#//*[@id="main"]/div/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/text()
+#//*[@id="main"]/div/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div/div[2]/a/text()
+#//*[@id="main"]/div/div[2]/div[3]/div[1]/div[1]/div[2]/div[3]/div/div[2]/a/text()
