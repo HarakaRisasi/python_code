@@ -64,10 +64,11 @@ import re # using Regex
 import requests
 from lxml import html
 
-url = 'https://www.rusprofile.ru/codes/411000'
+url = 'https://www.rusprofile.ru/codes/11100'
 response = requests.get(url)
 parser_tree = html.fromstring(response.content)
-response = parser_tree.xpath('//*[@id="main"]/div/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div/div[2]/a/text()')
+response = parser_tree.xpath('//*[@id="main"]/div/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/text()')
+
 
 # convert a list to string
 listToStr = ' '.join([str(elem) for elem in response]) #.replace('\n','')
@@ -77,8 +78,9 @@ listToStr = ' '.join([str(elem) for elem in response]) #.replace('\n','')
 
 print(re.sub(r"\s+", " ", listToStr.strip()))
 #>> Производство кухонной мебели, кроме изготовленной по индивидуальному заказу населения (12)
-#  ####################################################################################################################
+#####################################################################################################################
 
+# XPath - это язык выражений, предназначенный главным образом для доступа к узлам в документе XML. 
 # XPath - это технология, которая использует выражения пути для выбора узлов или наборов узлов в документе XML 
 # (или в нашем случае в документе HTML). 
 # Даже если XPath не является языком программирования сам по себе, 
@@ -87,7 +89,7 @@ print(re.sub(r"\s+", " ", listToStr.strip()))
 #
 # XPath может найти элемент по идентификатору, например так: [@attribute = 'value'] or ex.//*[@id="main"]
 
-# THE BIG EXAMPLE OF XPATH
+# THE BIG EXAMPLE OF XPATH - Child of Element ID
 # //*[@id="dhContent"]/pre[4]/font[3]/font/text()
 # <div id="dhContent">
 #     <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Примеры локатора XPath</font></font></h1>
