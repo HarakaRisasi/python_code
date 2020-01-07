@@ -150,7 +150,6 @@ print(re.sub(r"\s+", " ", listToStr.strip()))
 
 # //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[2]/div[1]/div[2]/a
 # //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[3]/div[1]/div[2]/a
-# //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[4]/div/div[2]/a
 # //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[5]/div[1]/div[2]/a
 # //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[6]/div/div[2]/a
 # //*[@id="main"]/div/div[2]/div[3]/div/div[1]/div[2]/div[7]/div[1]/div[2]/a
