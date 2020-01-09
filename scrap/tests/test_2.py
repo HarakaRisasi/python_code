@@ -7,6 +7,7 @@
 # По сути своей использование такого веб-драйвера сводится к созданию бота, 
 # выполняющего всю ручную работу с браузером автоматизированно.
 ###############################################################################
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
@@ -23,6 +24,7 @@ elem.send_keys("pycon")
 elem.send_keys(Keys.RETURN)
 assert "No results found." not in driver.page_source
 driver.close()
+
 ###############################################################################
 
 # Схема навигации в Selenium:
