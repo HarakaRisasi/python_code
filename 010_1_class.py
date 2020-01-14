@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import subprocess
-subprocess.call("clear")
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
 # A class is a blueprint for objects
 # one class for any number of objects of that type.
 # Also call it an abstract data type.

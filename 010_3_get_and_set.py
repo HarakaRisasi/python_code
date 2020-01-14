@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import subprocess
-subprocess.call("clear")
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
 # Что такое геттеры и сеттеры?
 # Следующее понятие из мира ООП,которое следует рассмотреть - это геттеры и сеттеры 
 # (getter - от англ. "get" - получать, и setter - от англ. "set" - устанавливать). 

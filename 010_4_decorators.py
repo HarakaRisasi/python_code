@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import subprocess
-subprocess.call("clear")
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
 # Еще один способ определить свойства — это декораторы. 
 # В следующем примере мы определим два разных метода с именем name(), 
 # предшествовать которым будут разные декораторы:
