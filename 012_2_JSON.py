@@ -13,4 +13,8 @@ filename = './json_ex/user.json'
 # ensure_ascii=False
 with open(filename, 'w', encoding="utf-8") as fl: 
     json.dump(username, fl, ensure_ascii=False)
-    print(f'We are save your name like a {username}!')
+    print(f'We are save your name like a {username}!') #>> We are save your name like a Haraka!
+
+with open(filename) as fl:
+    user = json.load(fl)
+    print(f'Greating {user}!!!') #>> Greating Haraka!!!
