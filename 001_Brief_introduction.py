@@ -10,7 +10,7 @@ for i in a:
 #=> baz
 
 # Hello, Python!
-spam_amount = 00
+spam_amount = 0
 spam_amount += 4
 
 # The colon (:) at the end of the if line indicates 
