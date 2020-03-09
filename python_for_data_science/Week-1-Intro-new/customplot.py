@@ -24,7 +24,7 @@ def pd_centers(featuresUsed, centers):
 def parallel_plot(data):
 	from itertools import cycle, islice
 	from pandas.plotting import parallel_coordinates
-	import matplotlib.pyplot as plt
+	import matplotlib.pyplot as pltо
 
 	my_colors = list(islice(cycle(['b', 'r', 'g', 'y', 'k']), None, len(data)))
 	plt.figure(figsize=(15,8)).gca().axes.set_ylim([-2.5,+2.5])
