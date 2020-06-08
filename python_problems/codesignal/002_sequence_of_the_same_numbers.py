@@ -1,4 +1,3 @@
-
 def largestNumber(n):
     ''' The maximum number formed into a sequence of the same numbers whose length is determined by the input number '''
     x = [] # we're make empty array
