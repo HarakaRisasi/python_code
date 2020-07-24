@@ -163,3 +163,8 @@ print(my_num[-1]) #>> 6
 # python slicer increments
 my_list = [1, 2, 3, 4, 5, 6, 'dog', 7]
 print(my_list[::-1]) #>> [7, 'dog', 6, 5, 4, 3, 2, 1]
+
+# Counting of individual list items and their duplicates.
+meals=['Spam', 'Eggs', 'Spam', 'Spam', 'Bacon', 'Spam']
+{i: meals.count(i) for i in meals}
+# {'Spam': 4, 'Eggs': 1, 'Bacon': 1}
