@@ -168,3 +168,13 @@ print(my_list[::-1]) #>> [7, 'dog', 6, 5, 4, 3, 2, 1]
 meals=['Spam', 'Eggs', 'Spam', 'Spam', 'Bacon', 'Spam']
 {i: meals.count(i) for i in meals}
 # {'Spam': 4, 'Eggs': 1, 'Bacon': 1}
+
+# Find digits into a row with `try, except` construction.
+list_num = []
+for i in 'bla23bla1bla8bla2':
+    try:
+        num = int(i)
+        list_num.append(num)
+    except ValueError:
+        continue
+print(list_num)
