@@ -178,3 +178,31 @@ for i in 'bla23bla1bla8bla2':
     except ValueError:
         continue
 print(list_num)
+
+# Combine nested lists.
+d = [[180.0], [173.8], [164.2], [156.5], [147.2], [138.2]]
+new_d = [i[0] for i in d]
+new_d
+
+doc_list = ["The Learn Python Challenge Casino.", "They bought a car and a casino", "Casinoville"]
+keywords = ['casino', 'they']
+
+
+def multi_word_search(doc_list, keywords):
+    """
+    Takes list of documents (each document is a string) and a list of keywords.  
+    Returns a dictionary where each key is a keyword, and the value is a list of indices
+    (from doc_list) of the documents containing that keyword
+
+    >>> doc_list = ["The Learn Python Challenge Casino.", "They bought a car and a casino", "Casinoville"]
+    >>> keywords = ['casino', 'they']
+    >>> multi_word_search(doc_list, keywords)
+    {'casino': [0, 1], 'they': [1]}
+    """
+    my_dict = {}
+    for i in keywords:
+        my_dict[i] = word_search(doc_list, i)
+#     help(word_search(doc_list, i))
+    return my_dict
+
+multi_word_search(doc_list, keywords)
