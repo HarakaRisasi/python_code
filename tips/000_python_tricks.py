@@ -187,7 +187,7 @@ new_d
 doc_list = ["The Learn Python Challenge Casino.", "They bought a car and a casino", "Casinoville"]
 keywords = ['casino', 'they']
 
-
+# Hidden function word_search.
 def multi_word_search(doc_list, keywords):
     """
     Takes list of documents (each document is a string) and a list of keywords.  
@@ -206,3 +206,15 @@ def multi_word_search(doc_list, keywords):
     return my_dict
 
 multi_word_search(doc_list, keywords)
+
+# Clearing nested lists while preserving their structure.
+raw_doc_list = ["The Learn Python Challenge Casino.", "They bought a car and a casino", "Casinoville"]
+clear_doc = []
+
+doc_list = [i.lower().split() for i in doc_list]
+
+for i in range(len(doc_list)):
+    clear_doc.append([e.rstrip(',.!?') for e in doc_list[i]])
+print(clear_doc)   
+#>>> [['the', 'learn', 'python', 'challenge', 'casino'], ['they', 'bought', 'a', 'car', 'and', 'a', 'casino'], ['casinoville']]
+
