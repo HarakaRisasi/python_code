@@ -170,6 +170,9 @@ meals=['Spam', 'Eggs', 'Spam', 'Spam', 'Bacon', 'Spam']
 # {'Spam': 4, 'Eggs': 1, 'Bacon': 1}
 
 # Find digits into a row with `try, except` construction.
+# - You surround a dangerous section of code with 'try' and 'except'.
+# - If the code in the 'try' works - the 'except' is skipped.
+# - If the code in the 'try' fails - it jumps to the 'exept' section
 list_num = []
 for i in 'bla23bla1bla8bla2':
     try:
