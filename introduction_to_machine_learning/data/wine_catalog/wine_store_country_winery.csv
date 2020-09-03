@@ -1,0 +1,452 @@
+country,province,country,designation,points,price,province,region_1,region_2,variety,winery,last_year_points
+Albania,Mirditë,Albania,,88.0,20.0,Mirditë,,,Kallmet,Arbëri,82
+Argentina,Mendoza Province,Argentina,Nicasia Vineyard,97.0,120.0,Mendoza Province,Mendoza,,Malbec,Bodega Catena Zapata,92
+Argentina,Other,Argentina,Reserva,95.0,90.0,Other,Salta,,Malbec,Colomé,92
+Australia,Australia Other,Australia,Yattarna,92.0,65.0,Australia Other,South Eastern Australia,,Chardonnay,Penfolds,93
+Australia,New South Wales,Australia,Noble One Botrytis,93.0,32.0,New South Wales,New South Wales,,Sémillon,De Bortoli,98
+Australia,Queensland,Australia,,85.0,13.0,Queensland,Granite Belt,,Semillon-Sauvignon Blanc,Ballandean,97
+Australia,South Australia,Australia,The Factor,98.0,125.0,South Australia,Barossa Valley,,Shiraz,Torbreck,93
+Australia,Tasmania,Australia,Coal River Valley Single Site,90.0,65.0,Tasmania,Tasmania,,Pinot Noir,Dalrymple,97
+Australia,Victoria,Australia,Rare,100.0,300.0,Victoria,Rutherglen,,Muscat,Chambers Rosewood Vineyards,100
+Australia,Western Australia,Australia,,95.0,84.0,Western Australia,Margaret River,,Cabernet Sauvignon,Moss Wood,86
+Austria,Austria,Austria,Brut,91.0,46.0,Austria,,,White Blend,Bründlmayer,87
+Austria,Burgenland,Austria,Zwischen den Steen Nummer 8 Trockenbeerenauslese,98.0,103.0,Burgenland,,,Welschriesling,Kracher,86
+Austria,Carnuntum,Austria,,93.0,25.0,Carnuntum,,,Blaufränkisch,Muhr-Van der Niepoort,86
+Austria,Donauland,Austria,Hohenberg,92.0,23.0,Donauland,,,Grüner Veltliner,Josef Ehmoser,96
+Austria,Eisenberg,Austria,Schiefer,92.0,24.0,Eisenberg,,,Blaufränkisch,Uwe Schiefer,96
+Austria,Kamptal,Austria,Heiligenstein Alte Reben Reserve,96.0,51.0,Kamptal,,,Riesling,Bründlmayer,82
+Austria,Kremstal,Austria,Alte Reben Berglagen,95.0,35.0,Kremstal,,,Grüner Veltliner,Salomon-Undhof,88
+Austria,Langenlois,Austria,,84.0,17.0,Langenlois,,,Riesling,Loimer,89
+Austria,Leithaberg,Austria,,93.0,45.0,Leithaberg,,,Blaufränkisch,Gernot and Heike Heinrich,98
+Austria,Mittelburgenland,Austria,Veratina Cuvée,93.0,,Mittelburgenland,,,Blaufränkisch,Weninger,88
+Austria,Neusiedlersee,Austria,Kracher No. 12,94.0,110.0,Neusiedlersee,,,White Blend,Kracher,89
+Austria,Neusiedlersee-Hügelland,Austria,Ruster Ausbruch Essenz,96.0,58.0,Neusiedlersee-Hügelland,,,White Blend,Feiler-Artinger,98
+Austria,Niederösterreich,Austria,Schneiderberg Eiswein,95.0,70.0,Niederösterreich,,,Riesling,Weinrieder,92
+Austria,South Styria,Austria,Pössnitzberg,88.0,35.0,South Styria,,,Sauvignon Blanc,Erwin Sabathi,93
+Austria,Steiermark,Austria,Classic,90.0,21.0,Steiermark,,,Chardonnay,Strauss,80
+Austria,Styria,Austria,Klassik,89.0,16.0,Styria,,,Sauvignon Blanc,Jaunegg,95
+Austria,Südoststeiermark,Austria,Saziani Essenz Trockenbeerenauslese,94.0,,Südoststeiermark,,,Austrian white blend,Neumeister,80
+Austria,Südsteiermark,Austria,Kranachberg,93.0,45.0,Südsteiermark,,,Sauvignon Blanc,Sattlerhof,84
+Austria,Thermenregion,Austria,,93.0,21.0,Thermenregion,,,St. Laurent,Johanneshof Reinisch,95
+Austria,Traisental,Austria,Berg Reserve,93.0,48.0,Traisental,,,Grüner Veltliner,Markus Huber,99
+Austria,Vienna,Austria,Nussberg Alte Reben Gemischter Satz,93.0,40.0,Vienna,,,Austrian white blend,Wieninger,87
+Austria,Wachau,Austria,Dürnsteiner Liebenberg Smaragd,96.0,,Wachau,,,Grüner Veltliner,F X Pichler,81
+Austria,Wagram,Austria,Ried Spiegel,92.0,17.0,Wagram,,,Grüner Veltliner,Josef Bauer,80
+Austria,Wagram-Donauland,Austria,Aurum,92.0,41.0,Wagram-Donauland,,,Grüner Veltliner,Josef Ehmoser,80
+Austria,Weinland Österreich,Austria,Beck Ink,91.0,,Weinland Österreich,,,Austrian Red Blend,Judith Beck,88
+Austria,Weinviertel,Austria,Rabenstein,92.0,29.0,Weinviertel,,,Grüner Veltliner,Dürnberg,81
+Austria,Wiener Gemischter Satz,Austria,,91.0,,Wiener Gemischter Satz,,,White Blend,Stift Klosterneuburg,97
+Austria,Österreichischer Sekt,Austria,Brut,90.0,44.0,Österreichischer Sekt,,,Sparkling Blend,Bründlmayer,97
+Bosnia and Herzegovina,Mostar,Bosnia and Herzegovina,,88.0,12.0,Mostar,,,Blatina,Winery Čitluk,93
+Brazil,Brazil,Brazil,Castas Portuguesas Quinta do Seival,84.0,29.0,Brazil,,,Red Blend,Vinícola Miolo,85
+Brazil,Santa Catarina,Brazil,Innominabile Lote IV,86.0,35.0,Santa Catarina,,,Bordeaux-style Red Blend,Villaggio Grando,87
+Brazil,Serra Gaúcha,Brazil,Agnus,88.0,15.0,Serra Gaúcha,,,Merlot,Lidio Carraro,95
+Brazil,Serra do Sudeste,Brazil,Agnus Encruzilhada do Sul,82.0,15.0,Serra do Sudeste,,,Merlot,Lidio Carraro,83
+Brazil,Vale Trentino,Brazil,,82.0,15.0,Vale Trentino,,,Tannat,Casa Perini,88
+Brazil,Vale dos Vinhedos,Brazil,Lote 43,85.0,35.0,Vale dos Vinhedos,,,Cabernet Sauvignon-Merlot,Vinícola Miolo,82
+Bulgaria,Black Sea Coastal,Bulgaria,Premium Quality Dry,86.0,10.0,Black Sea Coastal,,,Muskat Ottonel,Targovishte,91
+Bulgaria,Bulgaria,Bulgaria,Bergulé,90.0,15.0,Bulgaria,,,Mavrud,Villa Melnik,94
+Bulgaria,Danube River Plains,Bulgaria,,90.0,14.0,Danube River Plains,,,Chardonnay,Chateau Burgozone,89
+Bulgaria,Rose Valley,Bulgaria,Leva Chardonnay-Dimiat-Muscat,84.0,8.0,Rose Valley,,,White Blend,Vinex Slavyantsi,85
+Bulgaria,Sliven,Bulgaria,,86.0,7.0,Sliven,,,Meritage,Vini,87
+Bulgaria,Targovishte,Bulgaria,,85.0,8.0,Targovishte,,,Muscat,Balkan Hills,87
+Bulgaria,Thracian Valley,Bulgaria,Elenovo Nova Zagora,90.0,26.0,Thracian Valley,,,Mavrud,Edoardo Miroglio,94
+Canada,British Columbia,Canada,Block 2 Platinum,93.0,45.0,British Columbia,Okanagan Valley,,Pinot Noir,CedarCreek,90
+Canada,Ontario,Canada,Cave Spring Vineyard Estate Bottled VQA,92.0,17.0,Ontario,Beamsville Bench,,Riesling,Cave Spring,97
+Chile,Aconcagua Costa,Chile,,90.0,22.0,Aconcagua Costa,,,Sauvignon Blanc,Errazuriz,89
+Chile,Aconcagua Valley,Chile,Don Maximiano Founder's Reserva,93.0,90.0,Aconcagua Valley,,,Red Blend,Errazuriz,98
+Chile,Apalta,Chile,Pehuén,91.0,70.0,Apalta,,,Carmenère,Santa Rita,87
+Chile,Buin,Chile,Marques de Casa Concha,90.0,22.0,Buin,,,Syrah,Concha y Toro,97
+Chile,Bío Bío Valley,Chile,Quinel Vineyard,90.0,17.0,Bío Bío Valley,,,Chardonnay,Veranda,85
+Chile,Cachapoal Valley,Chile,,93.0,140.0,Cachapoal Valley,,,Red Blend,Vik,85
+Chile,Casablanca & Leyda Valleys,Chile,Gran Reserva El Refugio Vineyard,85.0,15.0,Casablanca & Leyda Valleys,,,Chardonnay,Carmen,89
+Chile,Casablanca Valley,Chile,Herú,91.0,45.0,Casablanca Valley,,,Pinot Noir,Ventisquero,90
+Chile,Casablanca-Curicó Valley,Chile,Classic Series,87.0,12.0,Casablanca-Curicó Valley,,,Sauvignon Blanc,Montes,81
+Chile,Cauquenes Valley,Chile,Orzada,90.0,20.0,Cauquenes Valley,,,Carignan,Odfjell,95
+Chile,Central Valley,Chile,,91.0,27.0,Central Valley,,,Red Blend,Hereu,87
+Chile,Chile,Chile,Borobo,92.0,80.0,Chile,,,Red Blend,Lapostolle,84
+Chile,Choapa Valley,Chile,Legado Reserva,89.0,15.0,Choapa Valley,,,Syrah,De Martino,86
+Chile,Colchagua Costa,Chile,Koyle Costa,89.0,22.0,Colchagua Costa,,,Sauvignon Blanc,Koyle,92
+Chile,Colchagua Valley,Chile,Clos Apalta,95.0,90.0,Colchagua Valley,,,Red Blend,Lapostolle,96
+Chile,Curicó Valley,Chile,Manso de Velasco Viñas Viejas,93.0,65.0,Curicó Valley,,,Cabernet Sauvignon,Miguel Torres,93
+Chile,Curicó and Leyda Valleys,Chile,Aliwen Reserva,88.0,12.0,Curicó and Leyda Valleys,,,Sauvignon Blanc,Undurraga,98
+Chile,Curicó and Maipo Valleys,Chile,Cordillera Brut,86.0,23.0,Curicó and Maipo Valleys,,,Pinot Noir,Miguel Torres,88
+Chile,Elqui Valley,Chile,Kankana del Elqui,91.0,44.0,Elqui Valley,,,Syrah,San Pedro,95
+Chile,Itata Valley,Chile,Artemisa Late Harvest,84.0,15.0,Itata Valley,,,Muscat d'Alexandrie,Viña el Aromo,83
+Chile,Leyda Valley,Chile,Marea,90.0,25.0,Leyda Valley,,,Pinot Noir,Luis Felipe Edwards,83
+Chile,Limarí Valley,Chile,Reserva Especial,92.0,20.0,Limarí Valley,,,Syrah,Maycas del Limari,86
+Chile,Lolol Valley,Chile,Hacienda Araucano Clos de Lolol,90.0,20.0,Lolol Valley,,,Red Blend,François Lurton,86
+Chile,Loncomilla Valley,Chile,Hacedor de Mundos Old Vines,91.0,45.0,Loncomilla Valley,,,Carignan,Gillmore,95
+Chile,Lontué Valley,Chile,,90.0,75.0,Lontué Valley,,,Malbec,Odfjell,97
+Chile,Maipo Valley,Chile,,93.0,60.0,Maipo Valley,,,Cabernet Sauvignon,Domus Aurea,81
+Chile,Maipo Valley-Colchagua Valley,Chile,Aliwen Reserva,90.0,13.0,Maipo Valley-Colchagua Valley,,,Cabernet Sauvignon,Undurraga,99
+Chile,Malleco,Chile,Sol de Sol,88.0,30.0,Malleco,,,Chardonnay,Viña Aquitania,92
+Chile,Marchigue,Chile,Block g+i,93.0,40.0,Marchigue,,,Syrah,Polkura,92
+Chile,Maule Valley,Chile,Lukai,92.0,70.0,Maule Valley,,,Red Blend,Viña San Vicente,81
+Chile,Molina,Chile,Family Reserve,90.0,29.0,Molina,,,Cabernet Sauvignon,Echeverria,84
+Chile,Peumo,Chile,Herencia,93.0,90.0,Peumo,,,Carmenère,Santa Carolina,87
+Chile,Pirque,Chile,Terrunyo Old Pirque Vineyard Block: Las Terrazas,93.0,41.0,Pirque,,,Cabernet Sauvignon,Concha y Toro,83
+Chile,Puente Alto,Chile,Don Melchor,94.0,80.0,Puente Alto,,,Cabernet Sauvignon,Concha y Toro,89
+Chile,Rapel Valley,Chile,Canto de Apalta,92.0,22.0,Rapel Valley,,,Red Blend,Lapostolle,88
+Chile,Rapel Valley-Casablanca Valley,Chile,Borobo,92.0,70.0,Rapel Valley-Casablanca Valley,,,Red Blend,Lapostolle,88
+Chile,Requinoa,Chile,Single Vineyard Plot: Sauco,89.0,13.0,Requinoa,,,Malbec,Anakena,91
+Chile,Rio Claro,Chile,Reserve,86.0,14.0,Rio Claro,,,Cabernet Sauvignon,Aresti,90
+Chile,San Antonio,Chile,,93.0,86.0,San Antonio,,,Syrah,Matetic,98
+Chile,San Clemente,Chile,Serie Riberas Gran Reserva Ribera del Maule,87.0,18.0,San Clemente,,,Merlot,Concha y Toro,81
+Chile,Santa Cruz,Chile,Alpha M,93.0,100.0,Santa Cruz,,,Bordeaux-style Red Blend,Montes,99
+China,China,China,,82.0,27.0,China,,,Chardonnay,Chateau Changyu-Castel,80
+Croatia,Croatia,Croatia,G6,88.0,19.0,Croatia,,,Grenache,Bibich,84
+Croatia,Dalmatian Coast,Croatia,Dry Red,88.0,19.0,Dalmatian Coast,,,Plavac Mali,Vuina,90
+Croatia,Dingač,Croatia,,90.0,38.0,Dingač,,,Plavac Mali,Grgić Vina,82
+Croatia,Hrvatsko Primorje,Croatia,,84.0,13.0,Hrvatsko Primorje,,,Zlahtina,Toljanic,87
+Croatia,Hvar,Croatia,Vrhunsko Bijelo Vino,88.0,20.0,Hvar,,,Posip,Zlatan Otok,94
+Croatia,Istria,Croatia,Ponente,90.0,20.0,Istria,,,Malvazija,Trapan,95
+Croatia,Korčula,Croatia,,89.0,28.0,Korčula,,,Posip,Grgić Vina,100
+Croatia,Krk,Croatia,Dry White,88.0,17.0,Krk,,,Zlahtina,Sipun,94
+Croatia,Kutjevo,Croatia,Barrique,90.0,25.0,Kutjevo,,,Zweigelt,Enjingi,86
+Croatia,Middle and South Dalmatia,Croatia,Dubrovnik,84.0,20.0,Middle and South Dalmatia,,,Malvasia,Karaman Winery,88
+Croatia,North Dalmatia,Croatia,Ambra,91.0,50.0,North Dalmatia,,,Red Blend,Bibich,87
+Croatia,Peljesac,Croatia,Stagnum,90.0,57.0,Peljesac,,,Plavac Mali,Miloš,99
+Croatia,Podunavlje,Croatia,,87.0,13.0,Podunavlje,,,Traminer,Iločki Podrumi,86
+Cyprus,Commandaria,Cyprus,Alasia,89.0,18.0,Commandaria,,,Red Blend,Loel,99
+Cyprus,Cyprus,Cyprus,Ayios Andronicos,87.0,11.0,Cyprus,,,White Blend,Chrysorroyiatissa,85
+Cyprus,Kathikas,Cyprus,Agios Onoufrios,87.0,18.0,Kathikas,,,Red Blend,Kathikac,95
+Cyprus,Lemesos,Cyprus,,80.0,10.0,Lemesos,,,Xinisteri,Domaine Nicolaides,96
+Cyprus,Pitsilia Mountains,Cyprus,Oak Aged,88.0,22.0,Pitsilia Mountains,,,Cabernet Sauvignon,Tsiakkas,84
+Czech Republic,Moravia,Czech Republic,,87.0,15.0,Moravia,,,Rivaner,Vino z Czech,85
+Egypt,Egypt,Egypt,Caspar Blanc de Noirs,84.0,,Egypt,,,Grenache,Sahara Vineyards,91
+England,England,England,Blanc de Blancs,94.0,45.0,England,,,Chardonnay,Hattingley Valley Wines,93
+France,Alsace,France,Grand Cru Clos Saint-Urbain Rangen de ThannSéléction des Grains Nobles,97.0,269.0,Alsace,Alsace,,Pinot Gris,Domaine Zind-Humbrecht,94
+France,Beaujolais,France,Javernières,94.0,,Beaujolais,Morgon,,Gamay,Domaine Louis-Claude Desvignes,90
+France,Bordeaux,France,,100.0,848.0,Bordeaux,Pessac-Léognan,,Bordeaux-style White Blend,Château Haut-Brion,98
+France,Burgundy,France,,98.0,411.0,Burgundy,Bienvenues Bâtard-Montrachet,,Chardonnay,Domaine Leflaive,89
+France,Champagne,France,Clos du Mesnil,100.0,1400.0,Champagne,Champagne,,Chardonnay,Krug,97
+France,France Other,France,Vin Jaune,92.0,45.0,France Other,Arbois,,Savagnin,Domaine Daniel Dugois,100
+France,Languedoc-Roussillon,France,Legend Vintage,95.0,350.0,Languedoc-Roussillon,Rivesaltes,,Red Blend,Gérard Bertrand,84
+France,Loire Valley,France,,96.0,90.0,Loire Valley,Savennières-Coulée de Serrant,,Chenin Blanc,Clos de la Coulée de Serrant,85
+France,Provence,France,La Brûlade,95.0,66.0,Provence,Bandol,,Provence red blend,Domaine de la Bégude,94
+France,Rhône Valley,France,La Landonne,99.0,450.0,Rhône Valley,Côte Rôtie,,Syrah,E. Guigal,81
+France,Southwest France,France,GC,96.0,120.0,Southwest France,Cahors,,Malbec,Château du Cèdre,84
+Georgia,Georgia,Georgia,Chardakhi White Dry With Skin Contact Unfiltered,87.0,18.0,Georgia,,,Chinuri,Iago's Wine,86
+Georgia,Kakheti,Georgia,Qvevri Traditional Kakhuri Dry Unfiltered Amber Wine,92.0,25.0,Kakheti,,,Rkatsiteli,Alaverdi Monastery Cellar,87
+Georgia,Napareuli,Georgia,,85.0,13.0,Napareuli,,,Saperavi,Telavi,84
+Germany,Ahr,Germany,Trocken,90.0,40.0,Ahr,,,Früburgunder,Winzergenossenschaft Mayschoss-Altenahr,93
+Germany,Baden,Germany,,92.0,37.0,Baden,,,Pinot Noir,Huber,96
+Germany,Franken,Germany,Iphöfer Kronsberg Spätlese Trocken,92.0,33.0,Franken,,,Riesling,Hans Wirsching,91
+Germany,Germany,Germany,,86.0,13.0,Germany,,,Riesling,Louis Guntrum,89
+Germany,Mosel,Germany,Bernkasteler Johannisbrünnchen Eiswein,96.0,95.0,Mosel,,,Riesling,Dr. Pauly Bergweiler,98
+Germany,Mosel-Saar-Ruwer,Germany,Kanzem Altenberg Eiswein First Growth,97.0,250.0,Mosel-Saar-Ruwer,,,Riesling,Von Othegraven,96
+Germany,Nahe,Germany,Berg Roxheim Erste Lage Trockenbeerenauslese,95.0,237.0,Nahe,,,Riesling,Prinz Salm,87
+Germany,Pfalz,Germany,Deidesheimer Hohenmorgen Trockenbeerenauslese - 375 ml,97.0,245.0,Pfalz,,,Riesling,Geh. Rat Dr. von Bassermann-Jordan,81
+Germany,Rhein-Mosel,Germany,Detonation,84.0,11.0,Rhein-Mosel,,,Riesling,Immich-Batterieberg,97
+Germany,Rheingau,Germany,Trockenbeerenauslese,97.0,445.0,Rheingau,,,Riesling,Schloss Johannisberger,94
+Germany,Rheinhessen,Germany,von der Fels,95.0,,Rheinhessen,,,Riesling,Weingut Keller,100
+Germany,Württemberg,Germany,Trocken,91.0,24.0,Württemberg,,,Lemberger,Grafen Neipperg,98
+Greece,Achaia,Greece,Taos Dry Red Wine,83.0,37.0,Achaia,,,Red Blend,A. Parparoussis,94
+Greece,Aigialias Slopes,Greece,,86.0,12.0,Aigialias Slopes,,,Cabernet Sauvignon,Oenoforos,96
+Greece,Amindeo,Greece,,84.0,20.0,Amindeo,,,Xinomavro,Ioannis Hatzis,81
+Greece,Amyndeon,Greece,Reserve Vieilles Vignes Unfiltered,87.0,38.0,Amyndeon,,,Xinomavro,Alpha Estate,98
+Greece,Arcadia,Greece,Reserve,87.0,40.0,Arcadia,,,Agiorgitiko,Ktima Driopi,91
+Greece,Atalanti Valley,Greece,Kapnias,89.0,24.0,Atalanti Valley,,,White Blend,Hatzimichalis,95
+Greece,Attica,Greece,Private Label White,89.0,,Attica,,,Savatiano,My Big Fat Greek Wine,95
+Greece,Beotia,Greece,Fumé,87.0,18.0,Beotia,,,Sauvignon Blanc,Avantis,94
+Greece,Central Greece,Greece,Boarding Pass Malagouzia,86.0,17.0,Central Greece,,,Malagousia,Thymiopoulos,99
+Greece,Cephalonia,Greece,,90.0,18.0,Cephalonia,,,Robola,Gentilini,87
+Greece,Chalkidiki,Greece,Xinomavro-Syrah-Cabernet Sauvignon,87.0,25.0,Chalkidiki,,,Red Blend,Claudia Papayianni,91
+Greece,Corinth,Greece,White Squared,88.0,18.0,Corinth,,,White Blend,Zacharias,97
+Greece,Crete,Greece,Symbolo Grand Cuvée,89.0,50.0,Crete,,,Red Blend,Lyrarakis,95
+Greece,Cyclades,Greece,Atlantis Dry White,86.0,15.0,Cyclades,,,White Blend,Argyros,90
+Greece,Drama,Greece,Emphasis,92.0,45.0,Drama,,,Syrah,Pavlidis,96
+Greece,Egilias Slopes,Greece,,82.0,12.0,Egilias Slopes,,,Chardonnay,Oenoforos,90
+Greece,Epanomi,Greece,Single Vineyard,92.0,23.0,Epanomi,,,Malagousia,Gerovassiliou,93
+Greece,Evia,Greece,Collection Unfiltered,87.0,75.0,Evia,,,Syrah,Avantis,96
+Greece,Florina,Greece,Axia Malagouzia,89.0,18.0,Florina,,,Malagouzia,Alpha Estate,92
+Greece,Gerania,Greece,Red,88.0,28.0,Gerania,,,Red Blend,Domaine Evharis,82
+Greece,Goumenissa,Greece,Eurynome Red Dry Wine Xinomavro-Negoska,87.0,27.0,Goumenissa,,,Red Blend,Chatzivariti,82
+Greece,Greece,Greece,,89.0,90.0,Greece,,,Red Blend,Evangelo,92
+Greece,Halkidiki,Greece,Organics,91.0,22.0,Halkidiki,,,Cabernet Sauvignon,Tsantali,87
+Greece,Ilia,Greece,Kallisto Assyrtiko-Robola,89.0,21.0,Ilia,,,White Blend,Mercouri Estate,80
+Greece,Ilias,Greece,,89.0,24.0,Ilias,,,Red Blend,Mercouri Estate,81
+Greece,Imathia,Greece,Diaporos Block 5,88.0,45.0,Imathia,,,Xinomavro,Kir-Yianni,95
+Greece,Ioannina,Greece,Averoff,84.0,24.0,Ioannina,,,Traminer,Katogi & Strofilia,93
+Greece,Ismarikos,Greece,Kanenas Maronia Vineyards,87.0,23.0,Ismarikos,,,White Blend,Tsantali,90
+Greece,Korinthia,Greece,Mythic River,89.0,15.0,Korinthia,,,White Blend,Estate Constantin Gofas,94
+Greece,Lakonia,Greece,Asproudi - Assyrtiko,87.0,19.0,Lakonia,,,White Blend,Vatistas,100
+Greece,Lemnos,Greece,Phelonoe,83.0,10.0,Lemnos,,,White Blend,Petros Honas,98
+Greece,Lesbos,Greece,Chidiriotiko Made With Organic Grapes,84.0,14.0,Lesbos,,,Red Blend,Methymnaeos,97
+Greece,Letrinon,Greece,Domaine Mercouri Cava Dry,90.0,50.0,Letrinon,,,Red Blend,Mercouri Estate,91
+Greece,Limnos,Greece,From Single Vineyards Muscat de Limnos Grand Cru,84.0,18.0,Limnos,,,Muscat of Alexandria,Limnos Wines,89
+Greece,Macedonia,Greece,The Fourth Dimension,88.0,20.0,Macedonia,,,White Blend,Stelios Kechris,82
+Greece,Mantinia,Greece,,90.0,16.0,Mantinia,,,Moschofilero,Boutari,91
+Greece,Mavrodaphne of Patras,Greece,Cellar Reserve,87.0,13.0,Mavrodaphne of Patras,,,Mavrodaphne,Tsantali,90
+Greece,Messinia,Greece,Geromilos Farms,88.0,11.0,Messinia,,,Cabernet Sauvignon-Merlot,Dimitra,100
+Greece,Monemvasia,Greece,Kidonitsa,86.0,40.0,Monemvasia,,,White Blend,Vatistas,83
+Greece,Mount Athos,Greece,Metoxi X,89.0,25.0,Mount Athos,,,Red Blend,Tsantali,82
+Greece,Muscat of Patras,Greece,,86.0,11.0,Muscat of Patras,,,Muscat,Loukatos,93
+Greece,Naoussa,Greece,,89.0,15.0,Naoussa,,,Xinomavro,Chrisohoou,95
+Greece,Nemea,Greece,Gaia Estate,91.0,39.0,Nemea,,,Agiorgitiko,Gaia Wines,94
+Greece,Opuntia Locris,Greece,Kapnias,87.0,30.0,Opuntia Locris,,,Cabernet Blend,Hatzi Michalis,88
+Greece,Pageon,Greece,,86.0,17.0,Pageon,,,Merlot,Protopapas,99
+Greece,Pangeon,Greece,Ovilos,90.0,38.0,Pangeon,,,White Blend,Estate Biblia Chora,86
+Greece,Patras,Greece,,89.0,14.0,Patras,,,Roditis,Tetramythos,90
+Greece,Peloponnese,Greece,Ambelos Phos Roditis-Moschofilero,89.0,13.0,Peloponnese,,,White Blend,Zacharias,88
+Greece,Peza,Greece,Mirambelo,85.0,30.0,Peza,,,Red Blend,Mediterra,83
+Greece,Pisatis,Greece,Folói,88.0,15.0,Pisatis,,,Roditis,Mercouri Estate,98
+Greece,Rapsani,Greece,Epilegmenos Reserve,87.0,35.0,Rapsani,,,Red Blend,Tsantali,94
+Greece,Retsina,Greece,Kechribari,88.0,11.0,Retsina,,,Roditis,Stelios Kechris,94
+Greece,Samos,Greece,,87.0,11.0,Samos,,,Muscat,Kourtaki,88
+Greece,Santorini,Greece,Estate,91.0,35.0,Santorini,,,Assyrtico,Argyros,96
+Greece,Sterea Ellada,Greece,,84.0,15.0,Sterea Ellada,,,Chardonnay,My Big Fat Greek Wine,98
+Greece,Thessalikos,Greece,,89.0,22.0,Thessalikos,,,Cabernet Sauvignon,Karipidis,84
+Greece,Thraki,Greece,Maronia Vineyard,88.0,20.0,Thraki,,,Mavroudi,Tsantali,93
+Greece,Vin de Pays d'Imathia,Greece,,89.0,40.0,Vin de Pays d'Imathia,,,Syrah,Kir-Yianni,96
+Greece,Vin de Pays de Macédoine,Greece,Amethystos,86.0,14.0,Vin de Pays de Macédoine,,,White Blend,Domaine Costa Lazaridi,94
+Greece,Vin de Pays de Velvendo,Greece,,87.0,35.0,Vin de Pays de Velvendo,,,Red Blend,Ktima Voyatzi,95
+Greece,Zitsa,Greece,Primus,82.0,15.0,Zitsa,,,White Blend,Glinavos,95
+Hungary,Eger,Hungary,,86.0,12.0,Eger,,,Chardonnay,Tibor Gal,85
+Hungary,Felso-Magyarország,Hungary,Connoisseur Collection,84.0,7.0,Felso-Magyarország,,,Pinot Gris,Dunavar,91
+Hungary,Hungary,Hungary,Mátra Muscat de Bianca,90.0,18.0,Hungary,,,Muscat Blanc,Vinum,95
+Hungary,Mátra,Hungary,Zöld Veltelini,89.0,13.0,Mátra,,,Grüner Veltliner,Szoke Matyás,96
+Hungary,Neszmély,Hungary,,86.0,9.0,Neszmély,,,Sauvignon Blanc,Craftsman,92
+Hungary,Pannon,Hungary,,88.0,12.0,Pannon,,,Grüner Veltliner,Count Károlyi,80
+Hungary,Sopron,Hungary,Steiner,90.0,35.0,Sopron,,,Kekfrankos,Weninger,91
+Hungary,Szekszárd,Hungary,Nagyapám,89.0,18.0,Szekszárd,,,Kadarka,Eszterbauer,93
+Hungary,Tokaj,Hungary,Cuvée Ilona,94.0,50.0,Tokaj,,,Tokaji,Királyudvar,87
+Hungary,Tokaji,Hungary,Aszú 6 Puttonyos,96.0,125.0,Tokaji,,,Tokaji,Dobogó,89
+Hungary,Villány,Hungary,,90.0,25.0,Villány,,,Pinot Noir,Vylyan,93
+India,Nashik,India,Estate Bottled,91.0,12.0,Nashik,,,Shiraz,Sula,84
+Israel,Dan,Israel,Classic,88.0,12.0,Dan,,,Chardonnay,Barkan,89
+Israel,Ella Valley,Israel,Reserve Kosher,88.0,25.0,Ella Valley,,,Merlot,Recanati,94
+Israel,Galil,Israel,Reserve,89.0,25.0,Galil,,,Cabernet Sauvignon,Barkan,89
+Israel,Galilee,Israel,Adama,93.0,,Galilee,,,Merlot,Tabor,92
+Israel,Golan Heights,Israel,,91.0,40.0,Golan Heights,,,Cabernet Sauvignon,Bazelet HaGolan,98
+Israel,Haut-Judeé,Israel,Grand Vin,92.0,75.0,Haut-Judeé,,,Bordeaux-style Red Blend,Domaine du Castel,82
+Israel,Israel,Israel,The Great Amarolo Dry Red Wine,89.0,75.0,Israel,,,Red Blend,Alexander,87
+Israel,Jerusalem Hills,Israel,M-Series,89.0,40.0,Jerusalem Hills,,,Cabernet Sauvignon,Psagot,96
+Israel,Judean Hills,Israel,Legend,93.0,40.0,Judean Hills,,,Red Blend,Shiloh Winery,97
+Israel,Negev,Israel,Classic Kosher,84.0,13.0,Negev,,,Pinot Noir,Barkan,95
+Israel,Negev Hills,Israel,Jonathan Tishbi Special Reserve Single Vineyard Sde Boker Kosher,89.0,55.0,Negev Hills,,,Bordeaux-style Red Blend,Tishbi Estate,97
+Israel,Samson,Israel,Oak Aged,93.0,25.0,Samson,,,Petite Sirah,Dalton,90
+Israel,Shomron,Israel,Soreka Special Reserve,92.0,30.0,Shomron,,,Cabernet Sauvignon,Madmon,82
+Israel,Upper Galilee,Israel,Limited Edition,92.0,85.0,Upper Galilee,,,Bordeaux-style Red Blend,Carmel,81
+Italy,Central Italy,Italy,Colleallodole,95.0,70.0,Central Italy,Sagrantino di Montefalco,,Sagrantino,Milziade Antano,84
+Italy,Italy Other,Italy,Munjebel Bianco 9,92.0,40.0,Italy Other,Vino da Tavola,,White Blend,Frank Cornelissen,98
+Italy,Lombardy,Italy,Vintage Collection Dosage Zero Noir Riserva,94.0,,Lombardy,Franciacorta,,Pinot Nero,Ca' del Bosco,98
+Italy,Northeastern Italy,Italy,Picolit,97.0,90.0,Northeastern Italy,Colli Orientali del Friuli,,Picolit,Livio Felluga,87
+Italy,Northwestern Italy,Italy,Rayon Blanc de Morgex et de La Salle,89.0,23.0,Northwestern Italy,Valle d'Aosta,,Prié Blanc,Cave du Vin Blanc de Morgex et de la Salle,88
+Italy,Piedmont,Italy,Monprivato,99.0,175.0,Piedmont,Barolo,,Nebbiolo,Mascarello Giuseppe e Figlio,96
+Italy,Sicily & Sardinia,Italy,Contrada P,95.0,80.0,Sicily & Sardinia,Terre Siciliane,,Nerello Mascalese,Passopisciaro,87
+Italy,Southern Italy,Italy,,94.0,50.0,Southern Italy,Campania,,Sirica,Feudi di San Gregorio,90
+Italy,Tuscany,Italy,Masseto,100.0,460.0,Tuscany,Toscana,,Merlot,Tenuta dell'Ornellaia,97
+Italy,Veneto,Italy,Mazzano,96.0,175.0,Veneto,Amarone della Valpolicella Classico,,Corvina, Rondinella, Molinara
+Japan,Kyoto,Japan,Nigori Yamanashi Limited Edition Unfiltered,85.0,24.0,Kyoto,,,Koshu,Croix Toriino,82
+Lebanon,Bekaa Valley,Lebanon,Le Colombier,89.0,13.0,Bekaa Valley,,,Red Blend,Massaya,87
+Lebanon,Lebanon,Lebanon,Altitudes,91.0,20.0,Lebanon,,,Red Blend,Ixsir,97
+Lithuania,Lithuania,Lithuania,Exclusive Semi-Dry,85.0,10.0,Lithuania,,,Sparkling Blend,Alita,91
+Luxembourg,Moselle Luxembourgeoise,Luxembourg,Domaine et Tradition Machtum Hohfels,88.0,50.0,Moselle Luxembourgeoise,,,Pinot Gris,Mme Aly Duhr et Fils,94
+Macedonia,Tikves,Macedonia,Veritas,89.0,20.0,Tikves,,,Vranec,Stobi,95
+Mexico,San Antonio de las Minas Valley,Mexico,Pedregal,91.0,45.0,San Antonio de las Minas Valley,,,Syrah-Mourvèdre,Vinisterra,90
+Mexico,San Vicente,Mexico,,89.0,36.0,San Vicente,,,Tempranillo,Rincón de Guadalupe,89
+Mexico,Valle de Guadalupe,Mexico,Amado IV,92.0,54.0,Valle de Guadalupe,,,Red Blend,Viñas de Garza,87
+Mexico,Valle de Guadalupe and Santo Tomás,Mexico,Macouzet,88.0,30.0,Valle de Guadalupe and Santo Tomás,,,Syrah,Vinisterra,82
+Moldova,Cahul,Moldova,,85.0,8.0,Cahul,,,Sauvignon Blanc,Taking Root,88
+Moldova,Chisinau County,Moldova,,81.0,9.0,Chisinau County,,,Chardonnay,Vina LaVina,91
+Moldova,Codru Region,Moldova,Mirodia Semidry,82.0,9.0,Codru Region,,,Red Blend,Vino Vista Collection,84
+Moldova,Moldova,Moldova,Alb de Purcari,90.0,32.0,Moldova,,,White Blend,Purcari,81
+Montenegro,Lake Skadar Valley,Montenegro,,82.0,10.0,Lake Skadar Valley,,,Vranec,Monte Cheval,90
+Morocco,Beni M'Tir,Morocco,Special Cuvée,82.0,6.0,Beni M'Tir,,,Shiraz,Hickory Ridge,87
+Morocco,Guerrouane,Morocco,Domaine Excelcio,93.0,35.0,Guerrouane,,,Syrah-Grenache,Bernard Magrez,96
+Morocco,Morocco,Morocco,Aït Soula,89.0,25.0,Morocco,,,Red Blend,Ouled Thaleb,93
+Morocco,Zenata,Morocco,,90.0,18.0,Zenata,,,Syrah,Ouled Thaleb,81
+New Zealand,Awatere Valley,New Zealand,,91.0,18.0,Awatere Valley,,,Sauvignon Blanc,Eradus,99
+New Zealand,Canterbury,New Zealand,Earth Smoke,91.0,60.0,Canterbury,,,Pinot Noir,Pyramid Valley,97
+New Zealand,Central Otago,New Zealand,Bannockburn,93.0,40.0,Central Otago,,,Riesling,Felton Road,95
+New Zealand,Central Otago-Marlborough,New Zealand,,83.0,17.0,Central Otago-Marlborough,,,Pinot Noir,Yealands,99
+New Zealand,East Coast,New Zealand,,90.0,15.0,East Coast,,,Sauvignon Blanc,Tablelands,96
+New Zealand,Eastern Bays,New Zealand,,86.0,15.0,Eastern Bays,,,Chardonnay,Matua Valley,93
+New Zealand,Gisborne,New Zealand,Tietjen,91.0,20.0,Gisborne,,,Chardonnay,Kim Crawford,92
+New Zealand,Hawke's Bay,New Zealand,The Patriarch Premium Red Wine,93.0,60.0,Hawke's Bay,,,Bordeaux-style Red Blend,Babich,89
+New Zealand,Kumeu,New Zealand,Maté's Vineyard,94.0,57.0,Kumeu,,,Chardonnay,Kumeu River,92
+New Zealand,Marlborough,New Zealand,Envoy Johnson Vineyard,93.0,33.0,Marlborough,,,Sauvignon Blanc,Spy Valley,93
+New Zealand,Marlborough & Hawkes Bay,New Zealand,Private Bin,86.0,12.0,Marlborough & Hawkes Bay,,,Sauvignon Blanc,Villa Maria,91
+New Zealand,Martinborough,New Zealand,Kupe,93.0,60.0,Martinborough,,,Pinot Noir,Escarpment,90
+New Zealand,Martinborough Terrace,New Zealand,Te Muna Block 1 Doug Wisor Memorial,93.0,60.0,Martinborough Terrace,,,Pinot Noir,Craggy Range,87
+New Zealand,Moutere,New Zealand,Home Vineyard,94.0,,Moutere,,,Pinot Noir,Neudorf,96
+New Zealand,Nelson,New Zealand,Moutere,93.0,45.0,Nelson,,,Chardonnay,Neudorf,96
+New Zealand,New Zealand,New Zealand,,90.0,,New Zealand,,,Pinot Gris,Dry River,87
+New Zealand,North Island,New Zealand,Reserve Limited Edition,87.0,15.0,North Island,,,Bordeaux-style Red Blend,Huntaway Reserve,86
+New Zealand,Ohiti Valley,New Zealand,Woolshed,86.0,17.0,Ohiti Valley,,,Merlot-Cabernet Sauvignon,Gunn Estate,97
+New Zealand,Omaka Valley,New Zealand,Hillside Selection,88.0,59.0,Omaka Valley,,,Pinot Noir,Terravin,90
+New Zealand,South Island,New Zealand,,88.0,18.0,South Island,,,Pinot Noir,Piko,83
+New Zealand,Stirling,New Zealand,Reserve,83.0,20.0,Stirling,,,Chardonnay,Riverside,92
+New Zealand,Waiheke Island,New Zealand,Ironclad,92.0,45.0,Waiheke Island,,,Bordeaux-style Red Blend,Man O' War,83
+New Zealand,Waipara,New Zealand,Estate,92.0,29.0,Waipara,,,Chardonnay,Mountford,93
+New Zealand,Waipara Valley,New Zealand,Sauvignon-Semillon,92.0,25.0,Waipara Valley,,,Bordeaux-style White Blend,Pegasus Bay,89
+New Zealand,Wairarapa,New Zealand,Block B,91.0,50.0,Wairarapa,,,Pinot Noir,Schubert,92
+New Zealand,Wairau Valley,New Zealand,Reserve,92.0,30.0,Wairau Valley,,,Sauvignon Blanc,Villa Maria,99
+New Zealand,Waitaki Valley,New Zealand,,92.0,,Waitaki Valley,,,Pinot Noir,John Forrest Collection,99
+Portugal,Alenquer,Portugal,Vinhas do Lasso Reserva,89.0,,Alenquer,,,Portuguese Red,Quinta do Pinto,94
+Portugal,Alentejano,Portugal,Rubrica,95.0,60.0,Alentejano,,,Portuguese Red,Luis Duarte,100
+Portugal,Alentejo,Portugal,Pêra-Manca Branco,94.0,33.0,Alentejo,,,Portuguese White,Cartuxa,96
+Portugal,Alenteo,Portugal,Branco Reserva,88.0,18.0,Alenteo,,,Portuguese White,Adega Cooperativa de Borba,88
+Portugal,Algarve,Portugal,Quinta do Outeiro Tinto,86.0,19.0,Algarve,,,Portuguese Red,Paxá Wines,95
+Portugal,Bairrada,Portugal,Grande Follies Quinta da Aguieira,93.0,40.0,Bairrada,,,Portuguese White,Aveleda,95
+Portugal,Beira Atlantico,Portugal,Marquês de Marialva Rosé Bruto,86.0,12.0,Beira Atlantico,,,Baga,Adega de Cantanhede,95
+Portugal,Beira Interior,Portugal,Quinta do Cardo Grande Escolha,94.0,55.0,Beira Interior,,,Portuguese Red,Companhia das Quintas,80
+Portugal,Beiras,Portugal,Vinhas Velhas de Santa Maria,93.0,70.0,Beiras,,,Baga,Quinta de Foz de Arouce,85
+Portugal,Bucelas,Portugal,Special Selection Old Vineyards,92.0,29.0,Bucelas,,,Arinto,Quinta do Boição,83
+Portugal,Colares,Portugal,Monte Cascas,91.0,79.0,Colares,,,Malvasia,Casca Wines,83
+Portugal,Douro,Portugal,Barca Velha,99.0,426.0,Douro,,,Portuguese Red,Casa Ferreirinha,99
+Portugal,Douro Superior,Portugal,Reserva,85.0,16.0,Douro Superior,,,Portuguese Red,Quinta do Grifo,88
+Portugal,Duriense,Portugal,,92.0,45.0,Duriense,,,Petit Verdot,Quinta da Romaneira,86
+Portugal,Dão,Portugal,Pape,95.0,65.0,Dão,,,Portuguese Red,Alvaro Castro,89
+Portugal,Estremadura,Portugal,Chocopalha Reserva,91.0,38.0,Estremadura,,,Portuguese Red,Quinta de Chocapalha,84
+Portugal,Lisboa,Portugal,,93.0,28.0,Lisboa,,,Touriga Nacional,Quinta do Pinto,87
+Portugal,Madeira,Portugal,Colheita,93.0,,Madeira,,,Bual,Cossart Gordon,92
+Portugal,Minho,Portugal,Escolha,92.0,25.0,Minho,,,Loureiro,Quinta do Ameal,80
+Portugal,Moscatel de Setúbal,Portugal,Loboroxo,94.0,,Moscatel de Setúbal,,,Moscatel Roxo,Lobo,96
+Portugal,Moscatel do Douro,Portugal,Colheita,90.0,137.0,Moscatel do Douro,,,Moscatel,Adega de Favaios,99
+Portugal,Obidos,Portugal,Quinta do Sanguinhal,90.0,30.0,Obidos,,,Portuguese Red,Sanguinhal,100
+Portugal,Palmela,Portugal,Pegos Claros Reserva,92.0,17.0,Palmela,,,Castelão,Wines & Winemakers,95
+Portugal,Península de Setúbal,Portugal,Palácio da Bacalhôa,94.0,49.0,Península de Setúbal,,,Bordeaux-style Red Blend,Bacalhôa Wines of Portugal,92
+Portugal,Port,Portugal,Vintage,97.0,95.0,Port,,,Port,Niepoort,97
+Portugal,Portugal,Portugal,Vintage Porto,93.0,82.0,Portugal,,,Port,Churchill's,91
+Portugal,Portuguese Table Wine,Portugal,Connections Limited Edition,91.0,19.0,Portuguese Table Wine,,,Chenin Blanc,Ribafreixo,99
+Portugal,Ribatejano,Portugal,Conde de Vimioso Reserva,92.0,32.0,Ribatejano,,,Portuguese Red,Falua,95
+Portugal,Ribatejo,Portugal,Cabeça de Toiro Reserva,92.0,17.0,Ribatejo,,,Portuguese Red,Caves Velhas,93
+Portugal,Setubal,Portugal,Parus Tinto,93.0,40.0,Setubal,,,Portuguese Red,Herdade da Comporta,81
+Portugal,Table wine,Portugal,Lancers Rosé,81.0,8.0,Table wine,,,Portuguese Red,José Maria da Fonseca,98
+Portugal,Tejo,Portugal,Ikon,93.0,35.0,Tejo,,,Touriga Nacional,Fiuza,91
+Portugal,Terras da Beira,Portugal,Vista,84.0,,Terras da Beira,,,Rosé,Caves Aliança,97
+Portugal,Terras do Dão,Portugal,D. Fuas Reserva,89.0,7.0,Terras do Dão,,,Portuguese Red,Caves Velhas,88
+Portugal,Terras do Sado,Portugal,Hexagon,94.0,,Terras do Sado,,,Portuguese Red,José Maria da Fonseca,86
+Portugal,Torres Vedras,Portugal,Património,88.0,13.0,Torres Vedras,,,Portuguese Red,Caves Bonifacio,95
+Portugal,Transmontanas,Portugal,Terra Boa,85.0,,Transmontanas,,,Portuguese Red,Caves Aliança,80
+Portugal,Transmontano,Portugal,Reserva,90.0,,Transmontano,,,Portuguese Red,Valle Pradinhos,92
+Portugal,Trás-os-Montes,Portugal,Branco Reserva,88.0,,Trás-os-Montes,,,Portuguese White,Quinta do Sobreiró de Cima,94
+Portugal,Távora-Varosa,Portugal,Bruto,90.0,,Távora-Varosa,,,Pinot Noir,Murganheira,96
+Portugal,Vinho Espumante,Portugal,Casal Garcia,85.0,,Vinho Espumante,,,Portuguese Sparkling,Aveleda,99
+Portugal,Vinho Espumante de Qualidade,Portugal,CC & CP,90.0,,Vinho Espumante de Qualidade,,,Pinot Noir,Caves Transmontanas,89
+Portugal,Vinho Licoroso,Portugal,Abafado 5-years,88.0,13.0,Vinho Licoroso,,,Fernão Pires,Quinta da Alorna,90
+Portugal,Vinho Verde,Portugal,Portal do Fidalgo,92.0,35.0,Vinho Verde,,,Alvarinho,Provam,99
+Portugal,Vinho da Mesa,Portugal,Duraduero,92.0,29.0,Vinho da Mesa,,,Red Blend,Quinta do Portal,80
+Romania,Colinele Dobrogei,Romania,La Umbra,88.0,9.0,Colinele Dobrogei,,,Rosé,Cramele Halewood,84
+Romania,Dealu Mare,Romania,Kronos Limited Edition,89.0,20.0,Dealu Mare,,,Pinot Noir,Cramele Halewood,80
+Romania,Dealurile Hușilor,Romania,Moner,88.0,10.0,Dealurile Hușilor,,,Sarba,Senator,87
+Romania,Dealurile Munteniei,Romania,La Umbra,88.0,9.0,Dealurile Munteniei,,,Pinot Noir,Cramele Halewood,94
+Romania,Murfatlar,Romania,Zestrea Demidulce,88.0,9.0,Murfatlar,,,Feteasca Neagra,Murfatlar,83
+Romania,Murfatlar Cernavoda,Romania,,80.0,15.0,Murfatlar Cernavoda,,,Chardonnay,Byzantium,88
+Romania,Plaiurile Drancei,Romania,Sauvignon Blanc/Feteasca Regala,84.0,7.0,Plaiurile Drancei,,,White Blend,Val Duná,89
+Romania,Recas,Romania,Conocul Ambrozy,92.0,28.0,Recas,,,Sauvignon Blanc,Cramele Recas,100
+Romania,Romania,Romania,Legendary Estate Series,88.0,9.0,Romania,,,Chardonnay,Cramele Recas,90
+Romania,Sebes,Romania,Theia Limited Edition,88.0,20.0,Sebes,,,Chardonnay,Cramele Halewood,98
+Romania,Tarnave,Romania,Muscat Ottonel,84.0,10.0,Tarnave,,,Muskat Ottonel,Terra Romana,98
+Romania,Terasele Dunarii,Romania,La Umbra,88.0,9.0,Terasele Dunarii,,,Chardonnay,Cramele Halewood,95
+Romania,Transylvanian Plateau,Romania,Blanc de Transylvanie,84.0,15.0,Transylvanian Plateau,,,White Blend,Byzantium,93
+Romania,Viile Carasului,Romania,Varius,87.0,10.0,Viile Carasului,,,Sauvignon Blanc,Senator,91
+Romania,Viile Timis,Romania,Alb Sec,84.0,8.0,Viile Timis,,,Pinot Grigio,Cramele Recas,89
+Romania,Viile Timisului,Romania,Paparuda Rezerva,88.0,12.0,Viile Timisului,,,Feteascǎ Regalǎ,Cramele Recas,97
+Romania,Vânju Mare,Romania,Alb de Vânju Mare,87.0,20.0,Vânju Mare,,,Sauvignon Blanc,VinArte,94
+Serbia,Fruška Gora,Serbia,,86.0,15.0,Fruška Gora,,,Portuguiser,Agrina,96
+Serbia,Pocerina,Serbia,,87.0,26.0,Pocerina,,,Morava,Milijan Jelić,96
+Serbia,Župa,Serbia,Margus Margi,89.0,20.0,Župa,,,Riesling,Budimir,81
+Slovakia,Muzla,Slovakia,,87.0,16.0,Muzla,,,Riesling,Château Bela,100
+Slovenia,Brda,Slovenia,Veliko,92.0,50.0,Brda,,,White Blend,Movia,91
+Slovenia,Dolenjska,Slovenia,Cvicek PTP,87.0,12.0,Dolenjska,,,Red Blend,Zajc,81
+Slovenia,Goriska Brda,Slovenia,Duet Lex,91.0,75.0,Goriska Brda,,,Bordeaux-style Red Blend,Edi Simcic,93
+Slovenia,Kras,Slovenia,Grganja,90.0,23.0,Kras,,,Vitovska,Štoka,91
+Slovenia,Primorska,Slovenia,,89.0,12.0,Primorska,,,Pinot Grigio,Giocato,94
+Slovenia,Slovenia,Slovenia,Tradition Rizling Brut,87.0,36.0,Slovenia,,,Riesling,Vino Kupljen,98
+Slovenia,Slovenska Istra,Slovenia,,88.0,36.0,Slovenska Istra,,,Malvasia,Klabjan,81
+Slovenia,Vipavska Dolina,Slovenia,Valentino Sweet Red,90.0,60.0,Vipavska Dolina,,,Merlot-Cabernet Franc,Batič,88
+Slovenia,Štajerska,Slovenia,,90.0,17.0,Štajerska,,,Chardonnay,Sanctum,98
+South Africa,Bot River,South Africa,Barrel Selection,89.0,35.0,Bot River,,,Chenin Blanc,Wildekrans,90
+South Africa,Breede River Valley,South Africa,,84.0,9.0,Breede River Valley,,,Sauvignon Blanc,Bergsig,97
+South Africa,Breedekloof,South Africa,Silkbush Mountain Vineyards,89.0,18.0,Breedekloof,,,Pinotage,Lions Drift,86
+South Africa,Cape Agulhas,South Africa,Pincushion Vineyard,90.0,25.0,Cape Agulhas,,,Sauvignon Blanc,Lomond,81
+South Africa,Cape South Coast,South Africa,,85.0,26.0,Cape South Coast,,,Pinot Noir,Catherine Marshall,82
+South Africa,Cederberg,South Africa,Five Generations,93.0,49.0,Cederberg,,,Cabernet Sauvignon,Cederberg,85
+South Africa,Coastal Region,South Africa,,92.0,65.0,Coastal Region,,,Cabernet Sauvignon,Anthonij Rupert,90
+South Africa,Constantia,South Africa,Vin de Constance,95.0,90.0,Constantia,,,Muscat,Klein Constantia,90
+South Africa,Darling,South Africa,,88.0,14.0,Darling,,,Chardonnay,Ondine,90
+South Africa,Durbanville,South Africa,Liber II,91.0,51.0,Durbanville,,,Red Blend,Emineo,98
+South Africa,Eilandia,South Africa,Made with Organically Grown Grapes,88.0,15.0,Eilandia,,,Viognier,Bon Cap,84
+South Africa,Elgin,South Africa,Mount Bullet,91.0,75.0,Elgin,,,Merlot,Shannon,82
+South Africa,Elim,South Africa,,85.0,20.0,Elim,,,Sauvignon Blanc,The Berrio,99
+South Africa,Franschhoek,South Africa,,94.0,46.0,Franschhoek,,,Cabernet Sauvignon,Boekenhoutskloof,81
+South Africa,Groenekloof,South Africa,,90.0,18.0,Groenekloof,,,Sauvignon,Neil Ellis,96
+South Africa,Hemel en Aarde,South Africa,,92.0,27.0,Hemel en Aarde,,,Pinotage,Southern Right,88
+South Africa,Jonkershoek Valley,South Africa,Three Pines,91.0,42.0,Jonkershoek Valley,,,Cabernet Sauvignon,Stark-Condé,99
+South Africa,Klein River,South Africa,Biography,85.0,17.0,Klein River,,,Shiraz,Raka,94
+South Africa,Lutzville Valley,South Africa,,84.0,10.0,Lutzville Valley,,,Sauvignon Blanc,Diamond River,86
+South Africa,Malgas,South Africa,White,90.0,35.0,Malgas,,,Chenin Blanc-Viognier,Sijnn,86
+South Africa,Northern Cape,South Africa,Star Tree Brut Sparkling Wine,86.0,11.0,Northern Cape,,,Sparkling Blend,Orange River Wine Cellars,86
+South Africa,Overberg,South Africa,,90.0,12.0,Overberg,,,Rosé,Slowine,82
+South Africa,Paarl,South Africa,Series C,94.0,70.0,Paarl,,,Bordeaux-style Red Blend,Vilafonté,97
+South Africa,Philadelphia,South Africa,,92.0,45.0,Philadelphia,,,Bordeaux-style Red Blend,Capaia,87
+South Africa,Polkadraai Hills,South Africa,Polkadraai,86.0,14.0,Polkadraai Hills,,,Chenin Blanc-Sauvignon Blanc,Stellenbosch Hills,100
+South Africa,Robertson,South Africa,Cabernet Sauvignon Methode Ancienne,92.0,52.0,Robertson,,,Cabernet Sauvignon,Springfield Estate,86
+South Africa,Simonsberg-Paarl,South Africa,Boet Erasmus,88.0,35.0,Simonsberg-Paarl,,,Bordeaux-style Red Blend,Vrede en Lust,93
+South Africa,Simonsberg-Stellenbosch,South Africa,Paul Sauer,92.0,50.0,Simonsberg-Stellenbosch,,,Bordeaux-style Red Blend,Kanonkop,80
+South Africa,South Africa,South Africa,,91.0,22.0,South Africa,,,Cabernet Sauvignon,Rudera,85
+South Africa,Stellenbosch,South Africa,Limited Release,94.0,93.0,Stellenbosch,,,Bordeaux-style Red Blend,Ernie Els,99
+South Africa,Swartland,South Africa,Columella,95.0,130.0,Swartland,,,Rhône-style Red Blend,Sadie Family,93
+South Africa,Tradouw,South Africa,R62,90.0,40.0,Tradouw,,,Syrah,Joubert-Tradauw,80
+South Africa,Tulbagh,South Africa,,93.0,70.0,Tulbagh,,,Syrah,Fable Mountain,94
+South Africa,Walker Bay,South Africa,Galpin Peak,90.0,40.0,Walker Bay,,,Pinot Noir,Bouchard Finlayson,92
+South Africa,Wellington,South Africa,Scaramanga,91.0,28.0,Wellington,,,Red Blend,Nabygelegen,84
+South Africa,Western Cape,South Africa,Henrietta,92.0,30.0,Western Cape,,,Semillon-Sauvignon Blanc,Bizoe,96
+South Korea,Jiri Valley,South Korea,Wild Grape Dry,82.0,16.0,Jiri Valley,,,Meoru,Keum Hwa Winery,97
+Spain,Andalucia,Spain,Solera 1927,94.0,25.0,Andalucia,Montilla-Moriles,,Pedro Ximénez,Alvear,97
+Spain,Catalonia,Spain,El Perer,96.0,770.0,Catalonia,Priorat,,Carignan,Marco Abella,90
+Spain,Central Spain,Spain,Emeritus,92.0,90.0,Central Spain,Dominio de Valdepusa,,Cabernet Blend,Marques de Griñon,85
+Spain,Galicia,Spain,Selección Especial,93.0,27.0,Galicia,Rías Baixas,,Albariño,Adegas Gran Vinum,83
+Spain,Levante,Spain,Casta Diva Fondillón Sweet,97.0,88.0,Levante,Alicante,,Monastrell,Bodegas Gutiérrez de la Vega,96
+Spain,Northern Spain,Spain,Clon de la Familia,98.0,450.0,Northern Spain,Ribera del Duero,,Tinto Fino,Emilio Moro,95
+Spain,Spain Other,Spain,Caligo Sweet White Wine,91.0,50.0,Spain Other,Spain,,White Blend,D.G. Viticultors,94
+Spain,Spanish Islands,Spain,Àn,92.0,50.0,Spanish Islands,Vi de la Terra Mallorca,,Red Blend,Ànima Negra,82
+Switzerland,Neuchâtel,Switzerland,,90.0,21.0,Neuchâtel,,,White Blend,Château d'Auvernier,99
+Switzerland,Ticino,Switzerland,Carato,83.0,38.0,Ticino,,,Merlot,Delea,84
+Switzerland,Valais,Switzerland,Les Murettes,90.0,28.0,Valais,,,Chasselas,Robert Gilliard,90
+Switzerland,Vino da Tavola della Svizzera Italiana,Switzerland,Marengo,86.0,19.0,Vino da Tavola della Svizzera Italiana,,,Merlot,Delea,100
+Tunisia,Tunisia,Tunisia,Selian Mystère,87.0,,Tunisia,,,Rosé,Domaine Neferis,81
+Turkey,Aegean,Turkey,Pendore,92.0,33.0,Aegean,,,Okuzgozu,Kavaklidere,95
+Turkey,Ankara,Turkey,Dry,90.0,15.0,Ankara,,,Kalecik Karasi,Vinkara,80
+Turkey,Elazığ,Turkey,Vintage Single Vineyard Collectible Series #5,88.0,20.0,Elazığ,,,Okuzgozu,Kayra,84
+Turkey,Thrace,Turkey,Grand Reserve Single Vineyard Bozokbag,91.0,79.0,Thrace,,,Cabernet Sauvignon,Suvla,98
+Turkey,Turkey,Turkey,,89.0,21.0,Turkey,,,Boğazkere,Yazgan,89
+US,America,US,Evolution,91.0,15.0,America,,,White Blend,Sokol Blosser,80
+US,Arizona,US,,88.0,28.0,Arizona,Cochise County,,Chenin Blanc,Pillsbury,97
+US,California,US,,100.0,200.0,California,Napa Valley,Napa,Cabernet Sauvignon,Cardinale,91
+US,Colorado,US,,90.0,30.0,Colorado,Colorado,,Syrah,Sutcliffe,84
+US,Connecticut,US,Duet,84.0,11.0,Connecticut,Western Connecticut Highlands,,White Blend,Hopkins Vineyard,84
+US,Idaho,US,Private Reserve,90.0,55.0,Idaho,,,Petite Sirah,Huston,82
+US,Iowa,US,,84.0,16.0,Iowa,Iowa,,Seyval Blanc,Jasper,88
+US,Kentucky,US,Estate,83.0,35.0,Kentucky,Kentucky,,Cabernet Franc,Elk Creek Vineyards,93
+US,Massachusetts,US,Apfel Eis Apple Ice Wine,89.0,25.0,Massachusetts,Massachusetts,,Apple,Still River,84
+US,Michigan,US,Proprietor's Reserve,86.0,20.0,Michigan,Old Mission Peninsula,,Pinot Gris,Chateau Chantal,94
+US,Missouri,US,Vintage,87.0,50.0,Missouri,Augusta,,Port,Mount Pleasant Winery,100
+US,Nevada,US,Nevada Ridge First Crush,84.0,75.0,Nevada,Nevada,,Zinfandel,Pahrump Valley Winery,91
+US,New Jersey,US,Reserve,87.0,17.0,New Jersey,New Jersey,,Cabernet Franc,Amalthea Cellars,100
+US,New Mexico,US,Artist Series I,88.0,20.0,New Mexico,New Mexico,,Viognier,La Chiripada,80
+US,New York,US,Reserve,94.0,30.0,New York,Seneca Lake,Finger Lakes,Riesling,Fox Run,81
+US,North Carolina,US,Terry Vintner's Family Reserve,88.0,50.0,North Carolina,Yadkin Valley,,Bordeaux-style Red Blend,Westbend Vineyards,90
+US,Ohio,US,Ice Wine,88.0,30.0,Ohio,Grand River Valley,,Vidal Blanc,Debonné,80
+US,Oregon,US,En Chamberlin Vineyard,100.0,65.0,Oregon,Walla Walla Valley (OR),Oregon Other,Syrah,Cayuse,93
+US,Pennsylvania,US,,87.0,17.0,Pennsylvania,Pennsylvania,,Pinot Grigio,Chaddsford,94
+US,Texas,US,Cellar Select,90.0,18.0,Texas,Texas,,Chardonnay,Llano Estacado,97
+US,Vermont,US,Icewine,85.0,45.0,Vermont,Vermont,,Vidal Blanc,Snow Farm,84
+US,Virginia,US,Boisseau,92.0,40.0,Virginia,Virginia,,Cabernet Sauvignon-Merlot,Linden,96
+US,Washington,US,Heart Stoneridge Vineyard,98.0,120.0,Washington,Columbia Valley (WA),Columbia Valley,Syrah,Charles Smith,86
+US,Washington-Oregon,US,Three White Wine,89.0,18.0,Washington-Oregon,,,White Blend,Z'IVO,86
+US-France,Santa Barbara County-Condrieu,US-France,,88.0,50.0,Santa Barbara County-Condrieu,,,Viognier,Deux C,94
+Ukraine,Ukraine,Ukraine,KrimSekt Matured Rosy Semi-Dry,86.0,13.0,Ukraine,,,Sparkling Blend,Artemovsk,90
+Uruguay,Atlantida,Uruguay,Angel's Cuvée Ripasso de Tannat,81.0,59.0,Atlantida,,,Tannat,Viñedo de los Vientos,89
+Uruguay,Canelones,Uruguay,,88.0,16.0,Canelones,,,Tannat,Artesana,87
+Uruguay,Colonia,Uruguay,Posada Del Virrey Reserve,84.0,13.0,Colonia,,,Viognier,Dante Irurtia,83
+Uruguay,El Colorado,Uruguay,Rio Colorado,86.0,35.0,El Colorado,,,Red Blend,DeLucca,98
+Uruguay,Juanico,Uruguay,Preludio Barrel Select Lote N 77,90.0,45.0,Juanico,,,Red Blend,Familia Deicas,100
+Uruguay,Montevideo,Uruguay,Monte Vide Eu Tannat-Merlot-Tempranillo,90.0,57.0,Montevideo,,,Red Blend,Bouza,100
+Uruguay,Progreso,Uruguay,RPF,89.0,23.0,Progreso,,,Tannat,Pisano,81
+Uruguay,San Jose,Uruguay,,84.0,19.0,San Jose,,,Tannat-Syrah,Tanterra,93
+Uruguay,Uruguay,Uruguay,Varietales,88.0,20.0,Uruguay,,,Tannat,Garzón,98
