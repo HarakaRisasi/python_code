@@ -1,0 +1,452 @@
+country,province,sum,max
+Albania,Mirditë,176.0,88.0
+Argentina,Mendoza Province,359396.0,97.0
+Argentina,Other,68293.0,95.0
+Australia,Australia Other,43093.0,92.0
+Australia,New South Wales,18523.0,93.0
+Australia,Queensland,255.0,85.0
+Australia,South Australia,240862.0,98.0
+Australia,Tasmania,4033.0,90.0
+Australia,Victoria,49650.0,100.0
+Australia,Western Australia,38598.0,95.0
+Austria,Austria,1478.0,91.0
+Austria,Burgenland,67084.0,98.0
+Austria,Carnuntum,5898.0,93.0
+Austria,Donauland,1945.0,92.0
+Austria,Eisenberg,274.0,92.0
+Austria,Kamptal,29122.0,96.0
+Austria,Kremstal,27793.0,95.0
+Austria,Langenlois,84.0,84.0
+Austria,Leithaberg,545.0,93.0
+Austria,Mittelburgenland,3929.0,93.0
+Austria,Neusiedlersee,2990.0,94.0
+Austria,Neusiedlersee-Hügelland,3090.0,96.0
+Austria,Niederösterreich,39075.0,95.0
+Austria,South Styria,175.0,88.0
+Austria,Steiermark,534.0,90.0
+Austria,Styria,1037.0,89.0
+Austria,Südoststeiermark,5001.0,94.0
+Austria,Südsteiermark,5682.0,93.0
+Austria,Thermenregion,10400.0,93.0
+Austria,Traisental,2090.0,93.0
+Austria,Vienna,4362.0,93.0
+Austria,Wachau,34118.0,96.0
+Austria,Wagram,1341.0,92.0
+Austria,Wagram-Donauland,6673.0,92.0
+Austria,Weinland Österreich,879.0,91.0
+Austria,Weinviertel,4061.0,92.0
+Austria,Wiener Gemischter Satz,451.0,91.0
+Austria,Österreichischer Sekt,1729.0,90.0
+Bosnia and Herzegovina,Mostar,339.0,88.0
+Brazil,Brazil,332.0,84.0
+Brazil,Santa Catarina,169.0,86.0
+Brazil,Serra Gaúcha,337.0,88.0
+Brazil,Serra do Sudeste,82.0,82.0
+Brazil,Vale Trentino,82.0,82.0
+Brazil,Vale dos Vinhedos,911.0,85.0
+Bulgaria,Black Sea Coastal,253.0,86.0
+Bulgaria,Bulgaria,1351.0,90.0
+Bulgaria,Danube River Plains,265.0,90.0
+Bulgaria,Rose Valley,84.0,84.0
+Bulgaria,Sliven,342.0,86.0
+Bulgaria,Targovishte,170.0,85.0
+Bulgaria,Thracian Valley,3778.0,90.0
+Canada,British Columbia,8190.0,93.0
+Canada,Ontario,8030.0,92.0
+Chile,Aconcagua Costa,446.0,90.0
+Chile,Aconcagua Valley,14143.0,93.0
+Chile,Apalta,1158.0,91.0
+Chile,Buin,358.0,90.0
+Chile,Bío Bío Valley,4800.0,90.0
+Chile,Cachapoal Valley,18112.0,93.0
+Chile,Casablanca & Leyda Valleys,85.0,85.0
+Chile,Casablanca Valley,60634.0,91.0
+Chile,Casablanca-Curicó Valley,87.0,87.0
+Chile,Cauquenes Valley,179.0,90.0
+Chile,Central Valley,41732.0,91.0
+Chile,Chile,1971.0,92.0
+Chile,Choapa Valley,350.0,89.0
+Chile,Colchagua Costa,89.0,89.0
+Chile,Colchagua Valley,94277.0,95.0
+Chile,Curicó Valley,25443.0,93.0
+Chile,Curicó and Leyda Valleys,262.0,88.0
+Chile,Curicó and Maipo Valleys,172.0,86.0
+Chile,Elqui Valley,4133.0,91.0
+Chile,Itata Valley,164.0,84.0
+Chile,Leyda Valley,12805.0,90.0
+Chile,Limarí Valley,15600.0,92.0
+Chile,Lolol Valley,1814.0,90.0
+Chile,Loncomilla Valley,2605.0,91.0
+Chile,Lontué Valley,4309.0,90.0
+Chile,Maipo Valley,67911.0,93.0
+Chile,Maipo Valley-Colchagua Valley,90.0,90.0
+Chile,Malleco,261.0,88.0
+Chile,Marchigue,1079.0,93.0
+Chile,Maule Valley,41557.0,92.0
+Chile,Molina,1521.0,90.0
+Chile,Peumo,4448.0,93.0
+Chile,Pirque,1785.0,93.0
+Chile,Puente Alto,1923.0,94.0
+Chile,Rapel Valley,20716.0,92.0
+Chile,Rapel Valley-Casablanca Valley,454.0,92.0
+Chile,Requinoa,786.0,89.0
+Chile,Rio Claro,672.0,86.0
+Chile,San Antonio,4708.0,93.0
+Chile,San Clemente,87.0,87.0
+Chile,Santa Cruz,184.0,93.0
+China,China,246.0,82.0
+Croatia,Croatia,176.0,88.0
+Croatia,Dalmatian Coast,88.0,88.0
+Croatia,Dingač,180.0,90.0
+Croatia,Hrvatsko Primorje,168.0,84.0
+Croatia,Hvar,176.0,88.0
+Croatia,Istria,2426.0,90.0
+Croatia,Korčula,438.0,89.0
+Croatia,Krk,176.0,88.0
+Croatia,Kutjevo,674.0,90.0
+Croatia,Middle and South Dalmatia,248.0,84.0
+Croatia,North Dalmatia,1123.0,91.0
+Croatia,Peljesac,1131.0,90.0
+Croatia,Podunavlje,509.0,87.0
+Cyprus,Commandaria,874.0,89.0
+Cyprus,Cyprus,261.0,87.0
+Cyprus,Kathikas,261.0,87.0
+Cyprus,Lemesos,160.0,80.0
+Cyprus,Pitsilia Mountains,431.0,88.0
+Czech Republic,Moravia,515.0,87.0
+Egypt,Egypt,251.0,84.0
+England,England,836.0,94.0
+France,Alsace,144856.0,97.0
+France,Beaujolais,45740.0,94.0
+France,Bordeaux,539402.0,100.0
+France,Burgundy,375226.0,98.0
+France,Champagne,118005.0,100.0
+France,France Other,23824.0,92.0
+France,Languedoc-Roussillon,85944.0,95.0
+France,Loire Valley,152825.0,96.0
+France,Provence,89233.0,95.0
+France,Rhône Valley,111721.0,99.0
+France,Southwest France,138495.0,96.0
+Georgia,Georgia,1004.0,87.0
+Georgia,Kakheti,2503.0,92.0
+Georgia,Napareuli,170.0,85.0
+Germany,Ahr,440.0,90.0
+Germany,Baden,5756.0,92.0
+Germany,Franken,4200.0,92.0
+Germany,Germany,841.0,86.0
+Germany,Mosel,69551.0,96.0
+Germany,Mosel-Saar-Ruwer,43820.0,97.0
+Germany,Nahe,6179.0,95.0
+Germany,Pfalz,22001.0,97.0
+Germany,Rhein-Mosel,168.0,84.0
+Germany,Rheingau,33313.0,97.0
+Germany,Rheinhessen,22604.0,95.0
+Germany,Württemberg,1325.0,91.0
+Greece,Achaia,83.0,83.0
+Greece,Aigialias Slopes,172.0,86.0
+Greece,Amindeo,334.0,84.0
+Greece,Amyndeon,690.0,87.0
+Greece,Arcadia,431.0,87.0
+Greece,Atalanti Valley,1547.0,89.0
+Greece,Attica,1116.0,89.0
+Greece,Beotia,678.0,87.0
+Greece,Central Greece,86.0,86.0
+Greece,Cephalonia,948.0,90.0
+Greece,Chalkidiki,261.0,87.0
+Greece,Corinth,1787.0,88.0
+Greece,Crete,2984.0,89.0
+Greece,Cyclades,168.0,86.0
+Greece,Drama,4769.0,92.0
+Greece,Egilias Slopes,164.0,82.0
+Greece,Epanomi,2111.0,92.0
+Greece,Evia,174.0,87.0
+Greece,Florina,693.0,89.0
+Greece,Gerania,426.0,88.0
+Greece,Goumenissa,348.0,87.0
+Greece,Greece,6450.0,89.0
+Greece,Halkidiki,1761.0,91.0
+Greece,Ilia,89.0,89.0
+Greece,Ilias,613.0,89.0
+Greece,Imathia,176.0,88.0
+Greece,Ioannina,84.0,84.0
+Greece,Ismarikos,255.0,87.0
+Greece,Korinthia,778.0,89.0
+Greece,Lakonia,174.0,87.0
+Greece,Lemnos,83.0,83.0
+Greece,Lesbos,168.0,84.0
+Greece,Letrinon,179.0,90.0
+Greece,Limnos,84.0,84.0
+Greece,Macedonia,1626.0,88.0
+Greece,Mantinia,3304.0,90.0
+Greece,Mavrodaphne of Patras,1028.0,87.0
+Greece,Messinia,174.0,88.0
+Greece,Monemvasia,172.0,86.0
+Greece,Mount Athos,789.0,89.0
+Greece,Muscat of Patras,427.0,86.0
+Greece,Naoussa,3552.0,89.0
+Greece,Nemea,7975.0,91.0
+Greece,Opuntia Locris,174.0,87.0
+Greece,Pageon,342.0,86.0
+Greece,Pangeon,2173.0,90.0
+Greece,Patras,1441.0,89.0
+Greece,Peloponnese,8760.0,89.0
+Greece,Peza,255.0,85.0
+Greece,Pisatis,263.0,88.0
+Greece,Rapsani,514.0,87.0
+Greece,Retsina,423.0,88.0
+Greece,Samos,1036.0,87.0
+Greece,Santorini,6874.0,91.0
+Greece,Sterea Ellada,84.0,84.0
+Greece,Thessalikos,776.0,89.0
+Greece,Thraki,264.0,88.0
+Greece,Vin de Pays d'Imathia,253.0,89.0
+Greece,Vin de Pays de Macédoine,510.0,86.0
+Greece,Vin de Pays de Velvendo,605.0,87.0
+Greece,Zitsa,82.0,82.0
+Hungary,Eger,994.0,86.0
+Hungary,Felso-Magyarország,168.0,84.0
+Hungary,Hungary,1793.0,90.0
+Hungary,Mátra,348.0,89.0
+Hungary,Neszmély,1514.0,86.0
+Hungary,Pannon,88.0,88.0
+Hungary,Sopron,1113.0,90.0
+Hungary,Szekszárd,259.0,89.0
+Hungary,Tokaj,2601.0,94.0
+Hungary,Tokaji,6384.0,96.0
+Hungary,Villány,4911.0,90.0
+India,Nashik,701.0,91.0
+Israel,Dan,507.0,88.0
+Israel,Ella Valley,88.0,88.0
+Israel,Galil,2164.0,89.0
+Israel,Galilee,26911.0,93.0
+Israel,Golan Heights,451.0,91.0
+Israel,Haut-Judeé,703.0,92.0
+Israel,Israel,777.0,89.0
+Israel,Jerusalem Hills,354.0,89.0
+Israel,Judean Hills,10624.0,93.0
+Israel,Negev,336.0,84.0
+Israel,Negev Hills,1364.0,89.0
+Israel,Samson,1213.0,93.0
+Israel,Shomron,2230.0,92.0
+Israel,Upper Galilee,3480.0,92.0
+Italy,Central Italy,130986.0,95.0
+Italy,Italy Other,4562.0,92.0
+Italy,Lombardy,50790.0,94.0
+Italy,Northeastern Italy,172740.0,97.0
+Italy,Northwestern Italy,859.0,89.0
+Italy,Piedmont,353239.0,99.0
+Italy,Sicily & Sardinia,217713.0,95.0
+Italy,Southern Italy,122374.0,94.0
+Italy,Tuscany,635756.0,100.0
+Italy,Veneto,340767.0,96.0
+Japan,Kyoto,170.0,85.0
+Lebanon,Bekaa Valley,2901.0,89.0
+Lebanon,Lebanon,270.0,91.0
+Lithuania,Lithuania,674.0,85.0
+Luxembourg,Moselle Luxembourgeoise,783.0,88.0
+Macedonia,Tikves,1357.0,89.0
+Mexico,San Antonio de las Minas Valley,171.0,91.0
+Mexico,San Vicente,177.0,89.0
+Mexico,Valle de Guadalupe,4235.0,92.0
+Mexico,Valle de Guadalupe and Santo Tomás,254.0,88.0
+Moldova,Cahul,1329.0,85.0
+Moldova,Chisinau County,162.0,81.0
+Moldova,Codru Region,164.0,82.0
+Moldova,Moldova,4360.0,90.0
+Montenegro,Lake Skadar Valley,164.0,82.0
+Morocco,Beni M'Tir,82.0,82.0
+Morocco,Guerrouane,179.0,93.0
+Morocco,Morocco,89.0,89.0
+Morocco,Zenata,708.0,90.0
+New Zealand,Awatere Valley,2287.0,91.0
+New Zealand,Canterbury,2519.0,91.0
+New Zealand,Central Otago,29899.0,93.0
+New Zealand,Central Otago-Marlborough,83.0,83.0
+New Zealand,East Coast,2058.0,90.0
+New Zealand,Eastern Bays,344.0,86.0
+New Zealand,Gisborne,5241.0,91.0
+New Zealand,Hawke's Bay,35665.0,93.0
+New Zealand,Kumeu,5162.0,94.0
+New Zealand,Marlborough,136101.0,93.0
+New Zealand,Marlborough & Hawkes Bay,172.0,86.0
+New Zealand,Martinborough,22080.0,93.0
+New Zealand,Martinborough Terrace,93.0,93.0
+New Zealand,Moutere,1143.0,94.0
+New Zealand,Nelson,13252.0,93.0
+New Zealand,New Zealand,1907.0,90.0
+New Zealand,North Island,338.0,87.0
+New Zealand,Ohiti Valley,340.0,86.0
+New Zealand,Omaka Valley,523.0,88.0
+New Zealand,South Island,1036.0,88.0
+New Zealand,Stirling,83.0,83.0
+New Zealand,Waiheke Island,977.0,92.0
+New Zealand,Waipara,8657.0,92.0
+New Zealand,Waipara Valley,2049.0,92.0
+New Zealand,Wairarapa,2146.0,91.0
+New Zealand,Wairau Valley,1427.0,92.0
+New Zealand,Waitaki Valley,92.0,92.0
+Portugal,Alenquer,599.0,89.0
+Portugal,Alentejano,75325.0,95.0
+Portugal,Alentejo,12546.0,94.0
+Portugal,Alenteo,176.0,88.0
+Portugal,Algarve,925.0,86.0
+Portugal,Bairrada,15255.0,93.0
+Portugal,Beira Atlantico,171.0,86.0
+Portugal,Beira Interior,2503.0,94.0
+Portugal,Beiras,4733.0,93.0
+Portugal,Bucelas,2652.0,92.0
+Portugal,Colares,91.0,91.0
+Portugal,Douro,93988.0,99.0
+Portugal,Douro Superior,85.0,85.0
+Portugal,Duriense,2100.0,92.0
+Portugal,Dão,24728.0,95.0
+Portugal,Estremadura,8483.0,91.0
+Portugal,Lisboa,28941.0,93.0
+Portugal,Madeira,2300.0,93.0
+Portugal,Minho,2743.0,92.0
+Portugal,Moscatel de Setúbal,546.0,94.0
+Portugal,Moscatel do Douro,356.0,90.0
+Portugal,Obidos,532.0,90.0
+Portugal,Palmela,1820.0,92.0
+Portugal,Península de Setúbal,8074.0,94.0
+Portugal,Port,79577.0,97.0
+Portugal,Portugal,721.0,93.0
+Portugal,Portuguese Table Wine,1464.0,91.0
+Portugal,Ribatejano,2534.0,92.0
+Portugal,Ribatejo,5623.0,92.0
+Portugal,Setubal,3855.0,93.0
+Portugal,Table wine,162.0,81.0
+Portugal,Tejo,35997.0,93.0
+Portugal,Terras da Beira,168.0,84.0
+Portugal,Terras do Dão,178.0,89.0
+Portugal,Terras do Sado,2093.0,94.0
+Portugal,Torres Vedras,258.0,88.0
+Portugal,Transmontanas,170.0,85.0
+Portugal,Transmontano,263.0,90.0
+Portugal,Trás-os-Montes,680.0,88.0
+Portugal,Távora-Varosa,438.0,90.0
+Portugal,Vinho Espumante,170.0,85.0
+Portugal,Vinho Espumante de Qualidade,3708.0,90.0
+Portugal,Vinho Licoroso,176.0,88.0
+Portugal,Vinho Verde,34129.0,92.0
+Portugal,Vinho da Mesa,274.0,92.0
+Romania,Colinele Dobrogei,264.0,88.0
+Romania,Dealu Mare,4145.0,89.0
+Romania,Dealurile Hușilor,174.0,88.0
+Romania,Dealurile Munteniei,767.0,88.0
+Romania,Murfatlar,863.0,88.0
+Romania,Murfatlar Cernavoda,160.0,80.0
+Romania,Plaiurile Drancei,168.0,84.0
+Romania,Recas,687.0,92.0
+Romania,Romania,1184.0,88.0
+Romania,Sebes,258.0,88.0
+Romania,Tarnave,168.0,84.0
+Romania,Terasele Dunarii,88.0,88.0
+Romania,Transylvanian Plateau,168.0,84.0
+Romania,Viile Carasului,87.0,87.0
+Romania,Viile Timis,84.0,84.0
+Romania,Viile Timisului,1120.0,88.0
+Romania,Vânju Mare,1335.0,87.0
+Serbia,Fruška Gora,172.0,86.0
+Serbia,Pocerina,87.0,87.0
+Serbia,Župa,969.0,89.0
+Slovakia,Muzla,251.0,87.0
+Slovenia,Brda,1512.0,92.0
+Slovenia,Dolenjska,87.0,87.0
+Slovenia,Goriska Brda,2227.0,91.0
+Slovenia,Kras,356.0,90.0
+Slovenia,Primorska,350.0,89.0
+Slovenia,Slovenia,258.0,87.0
+Slovenia,Slovenska Istra,88.0,88.0
+Slovenia,Vipavska Dolina,1684.0,90.0
+Slovenia,Štajerska,1732.0,90.0
+South Africa,Bot River,175.0,89.0
+South Africa,Breede River Valley,168.0,84.0
+South Africa,Breedekloof,1320.0,89.0
+South Africa,Cape Agulhas,351.0,90.0
+South Africa,Cape South Coast,85.0,85.0
+South Africa,Cederberg,1337.0,93.0
+South Africa,Coastal Region,23330.0,92.0
+South Africa,Constantia,2982.0,95.0
+South Africa,Darling,517.0,88.0
+South Africa,Durbanville,3040.0,91.0
+South Africa,Eilandia,175.0,88.0
+South Africa,Elgin,3932.0,91.0
+South Africa,Elim,85.0,85.0
+South Africa,Franschhoek,3188.0,94.0
+South Africa,Groenekloof,893.0,90.0
+South Africa,Hemel en Aarde,1170.0,92.0
+South Africa,Jonkershoek Valley,979.0,91.0
+South Africa,Klein River,340.0,85.0
+South Africa,Lutzville Valley,168.0,84.0
+South Africa,Malgas,90.0,90.0
+South Africa,Northern Cape,170.0,86.0
+South Africa,Overberg,529.0,90.0
+South Africa,Paarl,11321.0,94.0
+South Africa,Philadelphia,267.0,92.0
+South Africa,Polkadraai Hills,170.0,86.0
+South Africa,Robertson,11827.0,92.0
+South Africa,Simonsberg-Paarl,780.0,88.0
+South Africa,Simonsberg-Stellenbosch,4784.0,92.0
+South Africa,South Africa,953.0,91.0
+South Africa,Stellenbosch,57909.0,94.0
+South Africa,Swartland,5591.0,95.0
+South Africa,Tradouw,270.0,90.0
+South Africa,Tulbagh,447.0,93.0
+South Africa,Walker Bay,2682.0,90.0
+South Africa,Wellington,2983.0,91.0
+South Africa,Western Cape,41604.0,92.0
+South Korea,Jiri Valley,326.0,82.0
+Spain,Andalucia,15556.0,94.0
+Spain,Catalonia,105366.0,96.0
+Spain,Central Spain,57950.0,92.0
+Spain,Galicia,43263.0,93.0
+Spain,Levante,34732.0,97.0
+Spain,Northern Spain,377162.0,98.0
+Spain,Spain Other,3648.0,91.0
+Spain,Spanish Islands,2711.0,92.0
+Switzerland,Neuchâtel,90.0,90.0
+Switzerland,Ticino,83.0,83.0
+Switzerland,Valais,90.0,90.0
+Switzerland,Vino da Tavola della Svizzera Italiana,86.0,86.0
+Tunisia,Tunisia,172.0,87.0
+Turkey,Aegean,1330.0,92.0
+Turkey,Ankara,444.0,90.0
+Turkey,Elazığ,262.0,88.0
+Turkey,Thrace,1059.0,91.0
+Turkey,Turkey,1400.0,89.0
+US,America,2252.0,91.0
+US,Arizona,3311.0,88.0
+US,California,3836630.0,100.0
+US,Colorado,2367.0,90.0
+US,Connecticut,167.0,84.0
+US,Idaho,11040.0,90.0
+US,Iowa,334.0,84.0
+US,Kentucky,329.0,83.0
+US,Massachusetts,851.0,89.0
+US,Michigan,2079.0,86.0
+US,Missouri,4865.0,87.0
+US,Nevada,84.0,84.0
+US,New Jersey,1916.0,87.0
+US,New Mexico,7396.0,88.0
+US,New York,202717.0,94.0
+US,North Carolina,1679.0,88.0
+US,Ohio,2846.0,88.0
+US,Oregon,365155.0,100.0
+US,Pennsylvania,4175.0,87.0
+US,Texas,3494.0,90.0
+US,Vermont,169.0,85.0
+US,Virginia,43236.0,92.0
+US,Washington,745846.0,98.0
+US,Washington-Oregon,257.0,89.0
+US-France,Santa Barbara County-Condrieu,88.0,88.0
+Ukraine,Ukraine,423.0,86.0
+Uruguay,Atlantida,324.0,81.0
+Uruguay,Canelones,1431.0,88.0
+Uruguay,Colonia,252.0,84.0
+Uruguay,El Colorado,258.0,86.0
+Uruguay,Juanico,1355.0,90.0
+Uruguay,Montevideo,268.0,90.0
+Uruguay,Progreso,441.0,89.0
+Uruguay,San Jose,746.0,84.0
+Uruguay,Uruguay,1254.0,88.0
